@@ -1,0 +1,966 @@
+C:\Users\ezequ\source\repos\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.csproj.AssemblyReference.cache
+C:\Users\ezequ\source\repos\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.csproj.SuggestedBindingRedirects.cache
+C:\Users\ezequ\source\repos\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.CursoCaldeiraria.resources
+C:\Users\ezequ\source\repos\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.Form1.resources
+C:\Users\ezequ\source\repos\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.Properties.Resources.resources
+C:\Users\ezequ\source\repos\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.csproj.GenerateResource.cache
+C:\Users\ezequ\source\repos\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.csproj.CoreCompileInputs.cache
+C:\Users\ezequ\source\repos\ProjetoSenai\ProjetoSenai\bin\Debug\EntityFramework.dll
+C:\Users\ezequ\source\repos\ProjetoSenai\ProjetoSenai\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ezequ\source\repos\ProjetoSenai\ProjetoSenai\bin\Debug\System.Data.SQLite.dll
+C:\Users\ezequ\source\repos\ProjetoSenai\ProjetoSenai\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\ezequ\source\repos\ProjetoSenai\ProjetoSenai\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\ezequ\source\repos\ProjetoSenai\ProjetoSenai\bin\Debug\EntityFramework.xml
+C:\Users\ezequ\source\repos\ProjetoSenai\ProjetoSenai\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ezequ\source\repos\ProjetoSenai\ProjetoSenai\bin\Debug\System.Data.SQLite.xml
+C:\Users\ezequ\source\repos\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.NovoCD.resources
+C:\Users\ezequ\source\repos\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.csproj.CopyComplete
+C:\Users\ezequ\source\repos\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.NovoCurso.resources
+C:\Users\ezequ\source\repos\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.DTCursos.resources
+C:\Users\ezequ\source\repos\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.Form1.pt-BR.resources
+C:\Users\ezequ\source\repos\ProjetoSenai\ProjetoSenai\bin\Debug\System.Net.Mail.Abstractions.dll
+C:\Users\ezequ\source\repos\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.EMAIL.resources
+C:\Users\ezequ\source\repos\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.EmailEmpresa.resources
+C:\Users\ezequ\source\repos\ProjetoSenai\ProjetoSenai\bin\Debug\Gestor De Alunos.exe.config
+C:\Users\ezequ\source\repos\ProjetoSenai\ProjetoSenai\bin\Debug\Gestor De Alunos.exe
+C:\Users\ezequ\source\repos\ProjetoSenai\ProjetoSenai\bin\Debug\Gestor De Alunos.pdb
+C:\Users\ezequ\source\repos\ProjetoSenai\ProjetoSenai\bin\Debug\pt-BR\Gestor De Alunos.resources.dll
+C:\Users\ezequ\source\repos\ProjetoSenai\ProjetoSenai\obj\Debug\pt-BR\Gestor De Alunos.resources.dll
+C:\Users\ezequ\source\repos\ProjetoSenai\ProjetoSenai\obj\Debug\Gestor De Alunos.exe
+C:\Users\ezequ\source\repos\ProjetoSenai\ProjetoSenai\obj\Debug\Gestor De Alunos.pdb
+C:\Users\ezequ\source\repos\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.Planilha.resources
+D:\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.csproj.AssemblyReference.cache
+D:\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.csproj.SuggestedBindingRedirects.cache
+D:\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.CursoCaldeiraria.resources
+D:\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.DTCursos.resources
+D:\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.Form1.resources
+D:\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.NovoCD.resources
+D:\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.NovoCurso.resources
+D:\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.Planilha.resources
+D:\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.Properties.Resources.resources
+D:\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.Form1.pt-BR.resources
+D:\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.csproj.GenerateResource.cache
+D:\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.csproj.CoreCompileInputs.cache
+D:\ProjetoSenai\ProjetoSenai\obj\Debug\Gestor De Alunos.exe
+D:\ProjetoSenai\ProjetoSenai\obj\Debug\Gestor De Alunos.pdb
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Gestor De Alunos.exe.config
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Gestor De Alunos.exe
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Gestor De Alunos.pdb
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\pt-BR\Gestor De Alunos.resources.dll
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\EntityFramework.dll
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\EntityFramework.SqlServer.dll
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Authentication.Abstractions.dll
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Authentication.Core.dll
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Authorization.dll
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Authorization.Policy.dll
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Hosting.Abstractions.dll
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Http.dll
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Http.Extensions.dll
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Http.Features.dll
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.JsonPatch.dll
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Mvc.Abstractions.dll
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Mvc.Core.dll
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Mvc.Formatters.Json.dll
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Routing.Abstractions.dll
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Routing.dll
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.WebUtilities.dll
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Azure.Services.AppAuthentication.dll
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Bot.Configuration.dll
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Bot.Connector.dll
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Bot.Connector.Streaming.dll
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Bot.Schema.dll
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Bot.Streaming.dll
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.DotNet.PlatformAbstractions.dll
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Configuration.dll
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.DependencyModel.dll
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Http.dll
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Logging.dll
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.ObjectPool.dll
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Options.dll
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Identity.Client.dll
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.IdentityModel.Logging.dll
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.IdentityModel.Protocols.dll
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Net.Http.Headers.dll
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Rest.ClientRuntime.dll
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Newtonsoft.Json.dll
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\System.Buffers.dll
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\System.ComponentModel.Annotations.dll
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\System.Data.SQLite.dll
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\System.Data.SQLite.EF6.dll
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\System.Data.SQLite.Linq.dll
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\System.IO.Pipelines.dll
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\System.Memory.dll
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\System.Net.Mail.Abstractions.dll
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\System.Numerics.Vectors.dll
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\System.Text.Encodings.Web.dll
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\System.Text.Json.dll
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\System.ValueTuple.dll
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\EntityFramework.xml
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\EntityFramework.SqlServer.xml
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Authentication.Abstractions.xml
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Authentication.Core.xml
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Authorization.xml
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Authorization.Policy.xml
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Hosting.Abstractions.xml
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Http.xml
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Http.Abstractions.xml
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Http.Extensions.xml
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Http.Features.xml
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.JsonPatch.xml
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Mvc.Abstractions.xml
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Mvc.Core.xml
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Mvc.Formatters.Json.xml
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.ResponseCaching.Abstractions.xml
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Routing.xml
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Routing.Abstractions.xml
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.WebUtilities.xml
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Bot.Configuration.xml
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Bot.Connector.xml
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Bot.Connector.Streaming.pdb
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Bot.Connector.Streaming.xml
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Bot.Schema.xml
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Bot.Streaming.pdb
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Bot.Streaming.xml
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Configuration.xml
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Configuration.Binder.xml
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.xml
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Hosting.Abstractions.xml
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Http.xml
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Logging.xml
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.ObjectPool.xml
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Options.xml
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Primitives.xml
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Identity.Client.xml
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.pdb
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.xml
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.xml
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.IdentityModel.Logging.xml
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.IdentityModel.Protocols.xml
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Net.Http.Headers.xml
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\Newtonsoft.Json.xml
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\System.Buffers.xml
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\System.Data.SQLite.xml
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\System.IO.Pipelines.xml
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\System.Memory.xml
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\System.Numerics.Vectors.xml
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\System.Text.Encodings.Web.xml
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\System.Text.Json.xml
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\ProjetoSenai\ProjetoSenai\bin\Debug\System.ValueTuple.xml
+D:\ProjetoSenai\ProjetoSenai\obj\Debug\pt-BR\Gestor De Alunos.resources.dll
+D:\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.csproj.CopyComplete
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Gestor De Alunos.exe.config
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Gestor De Alunos.exe
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Gestor De Alunos.pdb
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\pt-BR\Gestor De Alunos.resources.dll
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\EntityFramework.dll
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\EntityFramework.SqlServer.dll
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Authentication.Abstractions.dll
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Authentication.Core.dll
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Authorization.dll
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Authorization.Policy.dll
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Hosting.Abstractions.dll
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Http.Abstractions.dll
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Http.dll
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Http.Extensions.dll
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Http.Features.dll
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.JsonPatch.dll
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Mvc.Abstractions.dll
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Mvc.Core.dll
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Mvc.Formatters.Json.dll
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Routing.Abstractions.dll
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Routing.dll
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.WebUtilities.dll
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Azure.Services.AppAuthentication.dll
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Bot.Configuration.dll
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Bot.Connector.dll
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Bot.Connector.Streaming.dll
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Bot.Schema.dll
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Bot.Streaming.dll
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.DotNet.PlatformAbstractions.dll
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Configuration.dll
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.DependencyModel.dll
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.dll
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Hosting.Abstractions.dll
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Http.dll
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Logging.dll
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.ObjectPool.dll
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Options.dll
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Primitives.dll
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Identity.Client.dll
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.IdentityModel.Logging.dll
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.IdentityModel.Protocols.dll
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Net.Http.Headers.dll
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Rest.ClientRuntime.dll
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Newtonsoft.Json.dll
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\System.Buffers.dll
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\System.ComponentModel.Annotations.dll
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\System.Data.SQLite.dll
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\System.Data.SQLite.EF6.dll
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\System.Data.SQLite.Linq.dll
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\System.IO.Pipelines.dll
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\System.Memory.dll
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\System.Net.Mail.Abstractions.dll
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\System.Numerics.Vectors.dll
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\System.Text.Encodings.Web.dll
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\System.Text.Json.dll
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\System.Threading.Tasks.Extensions.dll
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\System.ValueTuple.dll
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\EntityFramework.xml
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\EntityFramework.SqlServer.xml
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Authentication.Abstractions.xml
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Authentication.Core.xml
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Authorization.xml
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Authorization.Policy.xml
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Hosting.Abstractions.xml
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Http.xml
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Http.Abstractions.xml
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Http.Extensions.xml
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Http.Features.xml
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.JsonPatch.xml
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Mvc.Abstractions.xml
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Mvc.Core.xml
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Mvc.Formatters.Json.xml
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.ResponseCaching.Abstractions.xml
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Routing.xml
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Routing.Abstractions.xml
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.WebUtilities.xml
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Bot.Configuration.xml
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Bot.Connector.xml
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Bot.Connector.Streaming.pdb
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Bot.Connector.Streaming.xml
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Bot.Schema.xml
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Bot.Streaming.pdb
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Bot.Streaming.xml
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Configuration.xml
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Configuration.Binder.xml
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.xml
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Hosting.Abstractions.xml
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Http.xml
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Logging.xml
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.ObjectPool.xml
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Options.xml
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Primitives.xml
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Identity.Client.xml
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.pdb
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.xml
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.xml
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.IdentityModel.Logging.xml
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.IdentityModel.Protocols.xml
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Net.Http.Headers.xml
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\Newtonsoft.Json.xml
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\System.Buffers.xml
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\System.Data.SQLite.xml
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\System.IO.Pipelines.xml
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\System.Memory.xml
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\System.Numerics.Vectors.xml
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\System.Text.Encodings.Web.xml
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\System.Text.Json.xml
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\System.Threading.Tasks.Extensions.xml
+E:\ProjetoSenai\ProjetoSenai\bin\Debug\System.ValueTuple.xml
+E:\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.csproj.AssemblyReference.cache
+E:\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.csproj.SuggestedBindingRedirects.cache
+E:\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.CursoCaldeiraria.resources
+E:\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.DTCursos.resources
+E:\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.Form1.resources
+E:\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.NovoCD.resources
+E:\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.NovoCurso.resources
+E:\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.Planilha.resources
+E:\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.Properties.Resources.resources
+E:\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.Form1.pt-BR.resources
+E:\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.csproj.GenerateResource.cache
+E:\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.csproj.CoreCompileInputs.cache
+E:\ProjetoSenai\ProjetoSenai\obj\Debug\pt-BR\Gestor De Alunos.resources.dll
+E:\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.csproj.CopyComplete
+E:\ProjetoSenai\ProjetoSenai\obj\Debug\Gestor De Alunos.exe
+E:\ProjetoSenai\ProjetoSenai\obj\Debug\Gestor De Alunos.pdb
+E:\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.EMAIL.resources
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Gestor De Alunos.exe.config
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Gestor De Alunos.exe
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Gestor De Alunos.pdb
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\pt-BR\Gestor De Alunos.resources.dll
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\EntityFramework.dll
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\EntityFramework.SqlServer.dll
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Authentication.Abstractions.dll
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Authentication.Core.dll
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Authorization.dll
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Authorization.Policy.dll
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Hosting.Abstractions.dll
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Http.Abstractions.dll
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Http.dll
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Http.Extensions.dll
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Http.Features.dll
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.JsonPatch.dll
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Mvc.Abstractions.dll
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Mvc.Core.dll
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Mvc.Formatters.Json.dll
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Routing.Abstractions.dll
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Routing.dll
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.WebUtilities.dll
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Azure.Services.AppAuthentication.dll
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Bot.Configuration.dll
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Bot.Connector.dll
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Bot.Connector.Streaming.dll
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Bot.Schema.dll
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Bot.Streaming.dll
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.DotNet.PlatformAbstractions.dll
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Configuration.dll
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.DependencyModel.dll
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.dll
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Hosting.Abstractions.dll
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Http.dll
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Logging.dll
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.ObjectPool.dll
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Options.dll
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Primitives.dll
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Identity.Client.dll
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.IdentityModel.Logging.dll
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.IdentityModel.Protocols.dll
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Net.Http.Headers.dll
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Rest.ClientRuntime.dll
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Newtonsoft.Json.dll
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\System.Buffers.dll
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\System.ComponentModel.Annotations.dll
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\System.Data.SQLite.dll
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\System.Data.SQLite.EF6.dll
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\System.Data.SQLite.Linq.dll
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\System.IO.Pipelines.dll
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\System.Memory.dll
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\System.Net.Mail.Abstractions.dll
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\System.Numerics.Vectors.dll
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\System.Text.Encodings.Web.dll
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\System.Text.Json.dll
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\System.Threading.Tasks.Extensions.dll
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\System.ValueTuple.dll
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\EntityFramework.xml
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\EntityFramework.SqlServer.xml
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Authentication.Abstractions.xml
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Authentication.Core.xml
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Authorization.xml
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Authorization.Policy.xml
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Hosting.Abstractions.xml
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Http.xml
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Http.Abstractions.xml
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Http.Extensions.xml
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Http.Features.xml
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.JsonPatch.xml
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Mvc.Abstractions.xml
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Mvc.Core.xml
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Mvc.Formatters.Json.xml
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.ResponseCaching.Abstractions.xml
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Routing.xml
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Routing.Abstractions.xml
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.WebUtilities.xml
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Bot.Configuration.xml
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Bot.Connector.xml
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Bot.Connector.Streaming.pdb
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Bot.Connector.Streaming.xml
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Bot.Schema.xml
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Bot.Streaming.pdb
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Bot.Streaming.xml
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Configuration.xml
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Configuration.Binder.xml
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.xml
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Hosting.Abstractions.xml
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Http.xml
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Logging.xml
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.ObjectPool.xml
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Options.xml
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Primitives.xml
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Identity.Client.xml
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.pdb
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.xml
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.xml
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.IdentityModel.Logging.xml
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.IdentityModel.Protocols.xml
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Net.Http.Headers.xml
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\Newtonsoft.Json.xml
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\System.Buffers.xml
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\System.Data.SQLite.xml
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\System.IO.Pipelines.xml
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\System.Memory.xml
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\System.Numerics.Vectors.xml
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\System.Text.Encodings.Web.xml
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\System.Text.Json.xml
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\System.Threading.Tasks.Extensions.xml
+F:\ProjetoSenai\ProjetoSenai\bin\Debug\System.ValueTuple.xml
+F:\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.csproj.AssemblyReference.cache
+F:\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.csproj.SuggestedBindingRedirects.cache
+F:\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.CursoCaldeiraria.resources
+F:\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.DTCursos.resources
+F:\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.EMAIL.resources
+F:\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.Form1.resources
+F:\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.NovoCD.resources
+F:\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.NovoCurso.resources
+F:\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.Planilha.resources
+F:\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.Properties.Resources.resources
+F:\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.Form1.pt-BR.resources
+F:\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.csproj.GenerateResource.cache
+F:\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.csproj.CoreCompileInputs.cache
+F:\ProjetoSenai\ProjetoSenai\obj\Debug\pt-BR\Gestor De Alunos.resources.dll
+F:\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.csproj.CopyComplete
+F:\ProjetoSenai\ProjetoSenai\obj\Debug\Gestor De Alunos.exe
+F:\ProjetoSenai\ProjetoSenai\obj\Debug\Gestor De Alunos.pdb
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Gestor De Alunos.exe.config
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Gestor De Alunos.exe
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Gestor De Alunos.pdb
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\pt-BR\Gestor De Alunos.resources.dll
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\EntityFramework.dll
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\EntityFramework.SqlServer.dll
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Authentication.Abstractions.dll
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Authentication.Core.dll
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Authorization.dll
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Authorization.Policy.dll
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Hosting.Abstractions.dll
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Http.Abstractions.dll
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Http.dll
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Http.Extensions.dll
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Http.Features.dll
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.JsonPatch.dll
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Mvc.Abstractions.dll
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Mvc.Core.dll
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Mvc.Formatters.Json.dll
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Routing.Abstractions.dll
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Routing.dll
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.WebUtilities.dll
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Azure.Services.AppAuthentication.dll
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Bot.Configuration.dll
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Bot.Connector.dll
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Bot.Connector.Streaming.dll
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Bot.Schema.dll
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Bot.Streaming.dll
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.DotNet.PlatformAbstractions.dll
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Configuration.dll
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.DependencyModel.dll
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.dll
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Hosting.Abstractions.dll
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Http.dll
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Logging.dll
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.ObjectPool.dll
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Options.dll
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Primitives.dll
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Identity.Client.dll
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.IdentityModel.Logging.dll
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.IdentityModel.Protocols.dll
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Net.Http.Headers.dll
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Rest.ClientRuntime.dll
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Newtonsoft.Json.dll
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\System.Buffers.dll
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\System.ComponentModel.Annotations.dll
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\System.Data.SQLite.dll
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\System.Data.SQLite.EF6.dll
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\System.Data.SQLite.Linq.dll
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\System.IO.Pipelines.dll
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\System.Memory.dll
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\System.Net.Mail.Abstractions.dll
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\System.Numerics.Vectors.dll
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\System.Text.Encodings.Web.dll
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\System.Text.Json.dll
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\System.Threading.Tasks.Extensions.dll
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\System.ValueTuple.dll
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\EntityFramework.xml
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\EntityFramework.SqlServer.xml
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Authentication.Abstractions.xml
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Authentication.Core.xml
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Authorization.xml
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Authorization.Policy.xml
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Hosting.Abstractions.xml
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Http.xml
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Http.Abstractions.xml
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Http.Extensions.xml
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Http.Features.xml
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.JsonPatch.xml
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Mvc.Abstractions.xml
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Mvc.Core.xml
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Mvc.Formatters.Json.xml
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.ResponseCaching.Abstractions.xml
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Routing.xml
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Routing.Abstractions.xml
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.WebUtilities.xml
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Bot.Configuration.xml
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Bot.Connector.xml
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Bot.Connector.Streaming.pdb
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Bot.Connector.Streaming.xml
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Bot.Schema.xml
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Bot.Streaming.pdb
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Bot.Streaming.xml
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Configuration.xml
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Configuration.Binder.xml
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.xml
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Hosting.Abstractions.xml
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Http.xml
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Logging.xml
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.ObjectPool.xml
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Options.xml
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Primitives.xml
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Identity.Client.xml
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.pdb
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.xml
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.xml
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.IdentityModel.Logging.xml
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.IdentityModel.Protocols.xml
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Net.Http.Headers.xml
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Newtonsoft.Json.xml
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\System.Buffers.xml
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\System.Data.SQLite.xml
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\System.IO.Pipelines.xml
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\System.Memory.xml
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\System.Numerics.Vectors.xml
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\System.Text.Encodings.Web.xml
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\System.Text.Json.xml
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\System.Threading.Tasks.Extensions.xml
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\System.ValueTuple.xml
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.csproj.AssemblyReference.cache
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.csproj.SuggestedBindingRedirects.cache
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.CursoCaldeiraria.resources
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.DTCursos.resources
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.EMAIL.resources
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.Form1.resources
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.NovoCD.resources
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.NovoCurso.resources
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.Planilha.resources
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.Properties.Resources.resources
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.Form1.pt-BR.resources
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.csproj.GenerateResource.cache
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.csproj.CoreCompileInputs.cache
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\obj\Debug\pt-BR\Gestor De Alunos.resources.dll
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.csproj.CopyComplete
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\obj\Debug\Gestor De Alunos.exe
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\obj\Debug\Gestor De Alunos.pdb
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Gestor De Alunos.exe.config
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Gestor De Alunos.exe
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Gestor De Alunos.pdb
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\pt-BR\Gestor De Alunos.resources.dll
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\EntityFramework.dll
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\EntityFramework.SqlServer.dll
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Authentication.Abstractions.dll
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Authentication.Core.dll
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Authorization.dll
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Authorization.Policy.dll
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Hosting.Abstractions.dll
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Http.Abstractions.dll
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Http.dll
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Http.Extensions.dll
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Http.Features.dll
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.JsonPatch.dll
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Mvc.Abstractions.dll
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Mvc.Core.dll
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Mvc.Formatters.Json.dll
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Routing.Abstractions.dll
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Routing.dll
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.WebUtilities.dll
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Azure.Services.AppAuthentication.dll
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Bot.Configuration.dll
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Bot.Connector.dll
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Bot.Connector.Streaming.dll
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Bot.Schema.dll
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Bot.Streaming.dll
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.DotNet.PlatformAbstractions.dll
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Configuration.dll
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.DependencyModel.dll
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.dll
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Hosting.Abstractions.dll
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Http.dll
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Logging.dll
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.ObjectPool.dll
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Options.dll
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Primitives.dll
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Identity.Client.dll
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.IdentityModel.Logging.dll
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.IdentityModel.Protocols.dll
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Net.Http.Headers.dll
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Rest.ClientRuntime.dll
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Newtonsoft.Json.dll
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\System.Buffers.dll
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\System.ComponentModel.Annotations.dll
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\System.Data.SQLite.dll
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\System.Data.SQLite.EF6.dll
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\System.Data.SQLite.Linq.dll
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\System.IO.Pipelines.dll
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\System.Memory.dll
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\System.Net.Mail.Abstractions.dll
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\System.Numerics.Vectors.dll
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\System.Text.Encodings.Web.dll
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\System.Text.Json.dll
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\System.Threading.Tasks.Extensions.dll
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\System.ValueTuple.dll
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\EntityFramework.xml
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\EntityFramework.SqlServer.xml
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Authentication.Abstractions.xml
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Authentication.Core.xml
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Authorization.xml
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Authorization.Policy.xml
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Hosting.Abstractions.xml
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Http.xml
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Http.Abstractions.xml
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Http.Extensions.xml
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Http.Features.xml
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.JsonPatch.xml
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Mvc.Abstractions.xml
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Mvc.Core.xml
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Mvc.Formatters.Json.xml
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.ResponseCaching.Abstractions.xml
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Routing.xml
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Routing.Abstractions.xml
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.WebUtilities.xml
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Bot.Configuration.xml
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Bot.Connector.xml
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Bot.Connector.Streaming.pdb
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Bot.Connector.Streaming.xml
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Bot.Schema.xml
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Bot.Streaming.pdb
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Bot.Streaming.xml
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Configuration.xml
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Configuration.Binder.xml
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.xml
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Hosting.Abstractions.xml
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Http.xml
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Logging.xml
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.ObjectPool.xml
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Options.xml
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Primitives.xml
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Identity.Client.xml
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.pdb
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.xml
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.xml
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.IdentityModel.Logging.xml
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.IdentityModel.Protocols.xml
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Net.Http.Headers.xml
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Newtonsoft.Json.xml
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\System.Buffers.xml
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\System.Data.SQLite.xml
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\System.IO.Pipelines.xml
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\System.Memory.xml
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\System.Numerics.Vectors.xml
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\System.Text.Encodings.Web.xml
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\System.Text.Json.xml
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\System.Threading.Tasks.Extensions.xml
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\System.ValueTuple.xml
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.csproj.AssemblyReference.cache
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.csproj.SuggestedBindingRedirects.cache
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.CursoCaldeiraria.resources
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.DTCursos.resources
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.EMAIL.resources
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.Form1.resources
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.NovoCD.resources
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.NovoCurso.resources
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.Planilha.resources
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.Properties.Resources.resources
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.Form1.pt-BR.resources
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.csproj.GenerateResource.cache
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.csproj.CoreCompileInputs.cache
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\obj\Debug\pt-BR\Gestor De Alunos.resources.dll
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.csproj.CopyComplete
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\obj\Debug\Gestor De Alunos.exe
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\obj\Debug\Gestor De Alunos.pdb
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.SplashScreen.resources
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.SplashScreen.resources
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\ClosedXML.dll
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\DocumentFormat.OpenXml.dll
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\ExcelNumberFormat.dll
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\ClosedXML.pdb
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\ClosedXML.xml
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\DocumentFormat.OpenXml.xml
+E:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\ExcelNumberFormat.xml
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\ClosedXML.dll
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\DocumentFormat.OpenXml.dll
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\ExcelNumberFormat.dll
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\ClosedXML.pdb
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\ClosedXML.xml
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\DocumentFormat.OpenXml.xml
+F:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\ExcelNumberFormat.xml
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Gestor De Alunos.exe.config
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Gestor De Alunos.exe
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Gestor De Alunos.pdb
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\pt-BR\Gestor De Alunos.resources.dll
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\ClosedXML.dll
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\DocumentFormat.OpenXml.dll
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\EntityFramework.dll
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\EntityFramework.SqlServer.dll
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\ExcelNumberFormat.dll
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Authentication.Abstractions.dll
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Authentication.Core.dll
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Authorization.dll
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Authorization.Policy.dll
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Hosting.Abstractions.dll
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Http.dll
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Http.Extensions.dll
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Http.Features.dll
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.JsonPatch.dll
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Mvc.Abstractions.dll
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Mvc.Core.dll
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Mvc.Formatters.Json.dll
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Routing.Abstractions.dll
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Routing.dll
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.WebUtilities.dll
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Azure.Services.AppAuthentication.dll
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Bot.Configuration.dll
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Bot.Connector.dll
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Bot.Connector.Streaming.dll
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Bot.Schema.dll
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Bot.Streaming.dll
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.DotNet.PlatformAbstractions.dll
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Configuration.dll
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.DependencyModel.dll
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Http.dll
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Logging.dll
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.ObjectPool.dll
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Options.dll
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Identity.Client.dll
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.IdentityModel.Logging.dll
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.IdentityModel.Protocols.dll
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Net.Http.Headers.dll
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Rest.ClientRuntime.dll
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Newtonsoft.Json.dll
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\System.Buffers.dll
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\System.ComponentModel.Annotations.dll
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\System.Data.SQLite.dll
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\System.Data.SQLite.EF6.dll
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\System.Data.SQLite.Linq.dll
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\System.IO.Pipelines.dll
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\System.Memory.dll
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\System.Net.Mail.Abstractions.dll
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\System.Numerics.Vectors.dll
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\System.Text.Encodings.Web.dll
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\System.Text.Json.dll
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\System.ValueTuple.dll
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\ClosedXML.pdb
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\ClosedXML.xml
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\DocumentFormat.OpenXml.xml
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\EntityFramework.xml
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\EntityFramework.SqlServer.xml
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\ExcelNumberFormat.xml
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Authentication.Abstractions.xml
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Authentication.Core.xml
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Authorization.xml
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Authorization.Policy.xml
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Hosting.Abstractions.xml
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Http.xml
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Http.Abstractions.xml
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Http.Extensions.xml
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Http.Features.xml
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.JsonPatch.xml
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Mvc.Abstractions.xml
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Mvc.Core.xml
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Mvc.Formatters.Json.xml
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.ResponseCaching.Abstractions.xml
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Routing.xml
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.Routing.Abstractions.xml
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.AspNetCore.WebUtilities.xml
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Bot.Configuration.xml
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Bot.Connector.xml
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Bot.Connector.Streaming.pdb
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Bot.Connector.Streaming.xml
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Bot.Schema.xml
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Bot.Streaming.pdb
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Bot.Streaming.xml
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Configuration.xml
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Configuration.Binder.xml
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.xml
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Hosting.Abstractions.xml
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Http.xml
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Logging.xml
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.ObjectPool.xml
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Options.xml
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Extensions.Primitives.xml
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Identity.Client.xml
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.pdb
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.xml
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.xml
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.IdentityModel.Logging.xml
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.IdentityModel.Protocols.xml
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Microsoft.Net.Http.Headers.xml
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\Newtonsoft.Json.xml
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\System.Buffers.xml
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\System.Data.SQLite.xml
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\System.IO.Pipelines.xml
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\System.Memory.xml
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\System.Numerics.Vectors.xml
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\System.Text.Encodings.Web.xml
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\System.Text.Json.xml
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\bin\Debug\System.ValueTuple.xml
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.csproj.AssemblyReference.cache
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.csproj.SuggestedBindingRedirects.cache
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.CursoCaldeiraria.resources
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.DTCursos.resources
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.EMAIL.resources
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.Form1.resources
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.NovoCD.resources
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.NovoCurso.resources
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.Planilha.resources
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.Properties.Resources.resources
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.SplashScreen.resources
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.Form1.pt-BR.resources
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.csproj.GenerateResource.cache
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.csproj.CoreCompileInputs.cache
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\obj\Debug\pt-BR\Gestor De Alunos.resources.dll
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\obj\Debug\ProjetoSenai.csproj.CopyComplete
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\obj\Debug\Gestor De Alunos.exe
+D:\ATIVADORES\Meu Pendrive 8g\ProjetoSenai\ProjetoSenai\obj\Debug\Gestor De Alunos.pdb

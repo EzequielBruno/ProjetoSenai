@@ -1,0 +1,4 @@
+﻿Build iniciado...
+1>------ Compilação iniciada: Projeto: ProjetoSenai, Configuração: Debug Any CPU ------
+1>  ProjetoSenai -> C:\Users\ezequ\source\repos\ProjetoSenai\ProjetoSenai\bin\Debug\Gestor De Alunos.exe
+========== Compilar: 1 com êxito, 0 com falha, 0 atualizados, 0 ignorados ==========

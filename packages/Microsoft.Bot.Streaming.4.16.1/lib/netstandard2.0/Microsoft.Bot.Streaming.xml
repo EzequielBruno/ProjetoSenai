@@ -1,0 +1,2069 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Microsoft.Bot.Streaming</name>
+    </assembly>
+    <members>
+        <member name="T:Microsoft.Bot.Streaming.Payloads.IAssembler">
+            <summary>
+            An assembler used to pull raw, disjointed, bytes from the incoming stream and assemble them into their original form.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Bot.Streaming.Payloads.IAssembler.End">
+            <summary>
+            Gets a value indicating whether true if the current segment is the final segment of the stream.
+            </summary>
+            <value>
+            True or False.
+            </value>
+        </member>
+        <member name="P:Microsoft.Bot.Streaming.Payloads.IAssembler.Id">
+            <summary>
+            Gets the ID of this assembler.
+            </summary>
+            <value>
+            A GUID.
+            </value>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Payloads.IAssembler.Close">
+            <summary>
+            Closes the assembler.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Payloads.IAssembler.CreateStreamFromPayload">
+            <summary>
+            Creates a new stream populated with the bytes of the assembler's payload.
+            </summary>
+            <returns>The new stream ready for consumption.</returns>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Payloads.IAssembler.GetPayloadAsStream">
+            <summary>
+            Returns the assembler's payload as a stream.
+            </summary>
+            <returns>A stream conversion of the assembler's payload.</returns>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Payloads.IAssembler.OnReceive(Microsoft.Bot.Streaming.Payloads.Header,System.IO.Stream,System.Int32)">
+            <summary>
+            The action the assembler executes when new bytes are received on the incoming stream.
+            </summary>
+            <param name="header">The stream's <see cref="T:Microsoft.Bot.Streaming.Payloads.Header"/>.</param>
+            <param name="stream">The incoming stream being assembled.</param>
+            <param name="contentLength">The length of the stream, if finite.</param>
+        </member>
+        <member name="T:Microsoft.Bot.Streaming.Payloads.PayloadStreamAssembler">
+            <summary>
+            An <see cref="T:Microsoft.Bot.Streaming.Payloads.IAssembler"/> specific to payload streams.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Payloads.PayloadStreamAssembler.#ctor(Microsoft.Bot.Streaming.Payloads.IStreamManager,System.Guid)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Bot.Streaming.Payloads.PayloadStreamAssembler"/> class.
+            </summary>
+            <param name="streamManager">The <see cref="T:Microsoft.Bot.Streaming.Payloads.IStreamManager"/> managing the stream being assembled.</param>
+            <param name="id">The ID of this instance.</param>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Payloads.PayloadStreamAssembler.#ctor(Microsoft.Bot.Streaming.Payloads.IStreamManager,System.Guid,System.String,System.Nullable{System.Int32})">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Bot.Streaming.Payloads.PayloadStreamAssembler"/> class.
+            </summary>
+            <param name="streamManager">The <see cref="T:Microsoft.Bot.Streaming.Payloads.IStreamManager"/> managing the stream being assembled.</param>
+            <param name="id">The ID of this instance.</param>
+            <param name="type">The type of the content contained within the stream.</param>
+            <param name="length">The length of the content contained within the stream.</param>
+        </member>
+        <member name="P:Microsoft.Bot.Streaming.Payloads.PayloadStreamAssembler.ContentLength">
+            <summary>
+            Gets or sets the length of the content contained in the payload.
+            </summary>
+            <value>
+            A positive value if a fixed length exists, otherwise 0.
+            </value>
+        </member>
+        <member name="P:Microsoft.Bot.Streaming.Payloads.PayloadStreamAssembler.ContentType">
+            <summary>
+            Gets or sets the type of the content contained in the payload.
+            </summary>
+            <value>
+            A content type as defined by the Type field of <see cref="T:Microsoft.Bot.Streaming.Payloads.Header"/>.
+            </value>
+        </member>
+        <member name="P:Microsoft.Bot.Streaming.Payloads.PayloadStreamAssembler.Id">
+            <inheritdoc/>
+        </member>
+        <member name="P:Microsoft.Bot.Streaming.Payloads.PayloadStreamAssembler.End">
+            <inheritdoc/>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Payloads.PayloadStreamAssembler.CreateStreamFromPayload">
+            <inheritdoc/>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Payloads.PayloadStreamAssembler.GetPayloadAsStream">
+            <inheritdoc/>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Payloads.PayloadStreamAssembler.OnReceive(Microsoft.Bot.Streaming.Payloads.Header,System.IO.Stream,System.Int32)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Payloads.PayloadStreamAssembler.Close">
+            <inheritdoc/>
+        </member>
+        <member name="T:Microsoft.Bot.Streaming.Payloads.ContentStream">
+            <summary>
+            A stream of fixed or infinite length containing content to be decoded.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Payloads.ContentStream.#ctor(System.Guid,Microsoft.Bot.Streaming.Payloads.PayloadStreamAssembler)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Bot.Streaming.Payloads.ContentStream"/> class.
+            </summary>
+            <param name="id">The ID assigned to this instance.</param>
+            <param name="assembler">The <see cref="T:Microsoft.Bot.Streaming.Payloads.PayloadStreamAssembler"/> assigned to this instance.</param>
+        </member>
+        <member name="P:Microsoft.Bot.Streaming.Payloads.ContentStream.Id">
+            <inheritdoc/>
+        </member>
+        <member name="P:Microsoft.Bot.Streaming.Payloads.ContentStream.ContentType">
+            <inheritdoc/>
+        </member>
+        <member name="P:Microsoft.Bot.Streaming.Payloads.ContentStream.Length">
+            <inheritdoc/>
+        </member>
+        <member name="P:Microsoft.Bot.Streaming.Payloads.ContentStream.Stream">
+            <inheritdoc/>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Payloads.ContentStream.Cancel">
+            <summary>
+            Called to cancel processing of this instance. Calls Close() on the assigned <see cref="T:Microsoft.Bot.Streaming.Payloads.PayloadStreamAssembler"/>.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Bot.Streaming.Payloads.CancelDisassembler">
+            <summary>
+            The <see cref="T:Microsoft.Bot.Streaming.Payloads.PayloadDisassembler"/> used used by Cancel requests. 
+            </summary>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Payloads.CancelDisassembler.#ctor(Microsoft.Bot.Streaming.PayloadTransport.IPayloadSender,System.Guid,System.Char)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Bot.Streaming.Payloads.CancelDisassembler"/> class.
+            </summary>
+            <param name="sender">The <see cref="T:Microsoft.Bot.Streaming.PayloadTransport.PayloadSender"/> this Cancel request will be sent by.</param>
+            <param name="id">The ID of the <see cref="T:Microsoft.Bot.Streaming.Payloads.PayloadStream"/> to cancel.</param>
+            <param name="type">The type of the <see cref="T:Microsoft.Bot.Streaming.Payloads.PayloadStream"/> that is being cancelled.</param>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Payloads.CancelDisassembler.Disassemble">
+            <summary>
+            A task that initiates the process of disassembling the request and signals the <see cref="T:Microsoft.Bot.Streaming.PayloadTransport.PayloadSender"/> to begin sending.
+            </summary>
+            <returns>A <see cref="T:System.Threading.Tasks.Task"/> representing the result of the asynchronous operation.</returns>
+        </member>
+        <member name="T:Microsoft.Bot.Streaming.Payloads.PayloadDisassembler">
+            <summary>
+            PayloadDisassemblers take data payloads and break them into chunks to be sent out over the transport and reassembled on the receiving side.
+            This allows for payload multiplexing and avoids a single large payload from blocking the transport.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Payloads.PayloadDisassembler.#ctor(Microsoft.Bot.Streaming.PayloadTransport.IPayloadSender,System.Guid)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Bot.Streaming.Payloads.PayloadDisassembler"/> class.
+            </summary>
+            <param name="sender">The <see cref="T:Microsoft.Bot.Streaming.PayloadTransport.PayloadSender"/> used to send the disassembled payload chunks.</param>
+            <param name="id">The ID of this disassembler.</param>
+        </member>
+        <member name="P:Microsoft.Bot.Streaming.Payloads.PayloadDisassembler.Type">
+            <summary>
+            Gets the one character type of the payload this disassembler is operating on. <see cref="T:Microsoft.Bot.Streaming.Transport.TransportConstants"/>.
+            </summary>
+            <value>
+            The one character type of the payload this disassembler is operating on. <see cref="T:Microsoft.Bot.Streaming.Transport.TransportConstants"/>.
+            </value>
+        </member>
+        <member name="P:Microsoft.Bot.Streaming.Payloads.PayloadDisassembler.Serializer">
+            <summary>
+            Gets or sets the <see cref="T:Newtonsoft.Json.JsonSerializer"/> for use by this disassembler. Used to set custom <see cref="T:Microsoft.Bot.Streaming.SerializationSettings"/>.
+            </summary>
+            <value>
+            The <see cref="T:Newtonsoft.Json.JsonSerializer"/> for use by this disassembler. Used to set custom <see cref="T:Microsoft.Bot.Streaming.SerializationSettings"/>.
+            </value>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Payloads.PayloadDisassembler.GetStreamAsync">
+            <summary>
+            Gets the stream this disassembler is operating on.
+            </summary>
+            <returns>A <see cref="T:System.Threading.Tasks.Task`1"/> representing the result of the asynchronous operation.</returns>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Payloads.PayloadDisassembler.DisassembleAsync(System.Threading.CancellationToken)">
+            <summary>
+            Begins the process of disassembling a payload and sending the resulting chunks to the <see cref="T:Microsoft.Bot.Streaming.PayloadTransport.PayloadSender"/> to dispatch over the transport.
+            </summary>
+            <param name="cancellationToken">A cancellation token. Not currently used.</param>
+            <returns>A task representing the state of the disassembly.</returns>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Payloads.PayloadDisassembler.GetStreamDescription(Microsoft.Bot.Streaming.Payloads.ResponseMessageStream)">
+            <summary>
+            Creates and returns the <see cref="T:Microsoft.Bot.Streaming.Payloads.StreamDescription"/> of the passed <see cref="T:Microsoft.Bot.Streaming.Payloads.ResponseMessageStream"/>.
+            </summary>
+            <param name="stream">The stream to create a <see cref="T:Microsoft.Bot.Streaming.Payloads.StreamDescription"/> for.</param>
+            <returns>The <see cref="T:Microsoft.Bot.Streaming.Payloads.StreamDescription"/> of the passed in <see cref="T:Microsoft.Bot.Streaming.Payloads.ResponseMessageStream"/>.</returns>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Payloads.PayloadDisassembler.Serialize``1(``0,System.IO.MemoryStream@,System.Int32@)">
+            <summary>
+            Serializes the item into the <see cref="T:System.IO.MemoryStream"/> and exposes the length of the result.
+            </summary>
+            <typeparam name="T">The type of the item to be serialized.</typeparam>
+            <param name="item">The item to be serialized.</param>
+            <param name="stream">The <see cref="T:System.IO.MemoryStream"/> to write the serialized data to.</param>
+            <param name="length">The length of the <see cref="T:System.IO.MemoryStream"/> after the item has been serialized and the resulting data has been written to the stream.</param>
+        </member>
+        <member name="T:Microsoft.Bot.Streaming.Payloads.RequestDisassembler">
+            <summary>
+            The <see cref="T:Microsoft.Bot.Streaming.Payloads.PayloadDisassembler"/> used for <see cref="T:Microsoft.Bot.Streaming.StreamingRequest"/> payloads.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Payloads.RequestDisassembler.#ctor(Microsoft.Bot.Streaming.PayloadTransport.IPayloadSender,System.Guid,Microsoft.Bot.Streaming.StreamingRequest)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Bot.Streaming.Payloads.RequestDisassembler"/> class.
+            </summary>
+            <param name="sender">The <see cref="T:Microsoft.Bot.Streaming.PayloadTransport.PayloadSender"/> to send the disassembled data to.</param>
+            <param name="id">The ID of this disassembler.</param>
+            <param name="request">The request to be disassembled.</param>
+        </member>
+        <member name="P:Microsoft.Bot.Streaming.Payloads.RequestDisassembler.Request">
+            <summary>
+            Gets the <see cref="T:Microsoft.Bot.Streaming.StreamingRequest"/> to be disassembled.
+            </summary>
+            <value>
+            The <see cref="T:Microsoft.Bot.Streaming.StreamingRequest"/> to be disassembled.
+            </value>
+        </member>
+        <member name="P:Microsoft.Bot.Streaming.Payloads.RequestDisassembler.Type">
+            <inheritdoc/>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Payloads.RequestDisassembler.GetStreamAsync">
+            <inheritdoc/>
+        </member>
+        <member name="T:Microsoft.Bot.Streaming.Payloads.ResponseDisassembler">
+            <summary>
+            The <see cref="T:Microsoft.Bot.Streaming.Payloads.PayloadDisassembler"/> used for <see cref="T:Microsoft.Bot.Streaming.StreamingResponse"/> payloads.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Payloads.ResponseDisassembler.#ctor(Microsoft.Bot.Streaming.PayloadTransport.IPayloadSender,System.Guid,Microsoft.Bot.Streaming.StreamingResponse)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Bot.Streaming.Payloads.ResponseDisassembler"/> class.
+            </summary>
+            <param name="sender">The <see cref="T:Microsoft.Bot.Streaming.PayloadTransport.PayloadSender"/> to send the disassembled data to.</param>
+            <param name="id">The ID of this disassembler.</param>
+            <param name="response">The response to be disassembled.</param>
+        </member>
+        <member name="P:Microsoft.Bot.Streaming.Payloads.ResponseDisassembler.Response">
+            <summary>
+            Gets the <see cref="T:Microsoft.Bot.Streaming.StreamingResponse"/> to be disassembled.
+            </summary>
+            <value>
+            The <see cref="T:Microsoft.Bot.Streaming.StreamingResponse"/> to be disassembled.
+            </value>
+        </member>
+        <member name="P:Microsoft.Bot.Streaming.Payloads.ResponseDisassembler.Type">
+            <inheritdoc/>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Payloads.ResponseDisassembler.GetStreamAsync">
+            <inheritdoc/>
+        </member>
+        <member name="T:Microsoft.Bot.Streaming.Payloads.ResponseMessageStreamDisassembler">
+            <summary>
+            The <see cref="T:Microsoft.Bot.Streaming.Payloads.PayloadDisassembler"/> used for <see cref="T:Microsoft.Bot.Streaming.Payloads.ResponseMessageStream"/> payloads.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Payloads.ResponseMessageStreamDisassembler.#ctor(Microsoft.Bot.Streaming.PayloadTransport.IPayloadSender,Microsoft.Bot.Streaming.Payloads.ResponseMessageStream)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Bot.Streaming.Payloads.ResponseMessageStreamDisassembler"/> class.
+            </summary>
+            <param name="sender">The <see cref="T:Microsoft.Bot.Streaming.PayloadTransport.PayloadSender"/> to send the disassembled data to.</param>
+            <param name="contentStream">The <see cref="T:Microsoft.Bot.Streaming.Payloads.ResponseMessageStream"/> to be disassembled.</param>
+        </member>
+        <member name="P:Microsoft.Bot.Streaming.Payloads.ResponseMessageStreamDisassembler.ContentStream">
+            <summary>
+            Gets the <see cref="T:Microsoft.Bot.Streaming.Payloads.ResponseMessageStream"/> to be disassembled.
+            </summary>
+            <value>
+            The <see cref="T:Microsoft.Bot.Streaming.Payloads.ResponseMessageStream"/> to be disassembled.
+            </value>
+        </member>
+        <member name="P:Microsoft.Bot.Streaming.Payloads.ResponseMessageStreamDisassembler.Type">
+            <inheritdoc/>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Payloads.ResponseMessageStreamDisassembler.GetStreamAsync">
+            <inheritdoc/>
+        </member>
+        <member name="T:Microsoft.Bot.Streaming.Payloads.StreamWrapper">
+            <summary>
+            A wrapper class containing a stream and the length of that stream. Used to determine the length of a stream without touching the stream itself.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Bot.Streaming.Payloads.StreamWrapper.Stream">
+            <summary>
+            Gets or sets the stream for this wrapper.
+            </summary>
+            <value>
+            The stream for this wrapper.
+            </value>
+        </member>
+        <member name="P:Microsoft.Bot.Streaming.Payloads.StreamWrapper.StreamLength">
+            <summary>
+            Gets or sets the length of the associated stream.
+            </summary>
+            <value>
+            The length of the associated stream.
+            </value>
+        </member>
+        <member name="T:Microsoft.Bot.Streaming.Payloads.HeaderSerializer">
+            <summary>
+            The 48-byte, fixed size, header prefaces every payload. The header must always have the
+            same shape, regardless of if its payload is a request, response, or content. It is a
+            period-delimited ASCII-encoded string terminated with a newline. All headers must have
+            these segments, and all values must be zero padded to fill the correct number of bytes:
+            |Title           Size        Description
+            |Type            1 byte      ASCII-encoded char. Describes the format of the payload (request, response, stream, etc.)
+            |Delimiter       1 byte      ASCII period character
+            |Length          6 bytes     ASCII-encoded decimal. Size in bytes of this payload in ASCII decimal, not including the header. Zero padded.
+            |Delimiter       1 byte      ASCII period character
+            |ID              36 bytes    ASCII-encoded hex. GUID (Request ID, Stream ID, etc.)
+            |Delimiter       1 byte      ASCII period character
+            |End             1 byte      ASCII ‘0’ or ‘1’. Signals the end of a payload or multi-part payload
+            |Terminator      1 byte      Hardcoded to \n
+            ex: A.000168.68e999ca-a651-40f4-ad8f-3aaf781862b4.1\n end example.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Bot.Streaming.Payloads.HeaderSerializer.Delimiter">
+            <summary>
+            ASCII period character.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Bot.Streaming.Payloads.HeaderSerializer.Terminator">
+            <summary>
+            Hardcoded to \n .
+            </summary>
+        </member>
+        <member name="F:Microsoft.Bot.Streaming.Payloads.HeaderSerializer.End">
+            <summary>
+            ASCII ‘1’. Signals the end of a payload or multi-part payload.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Bot.Streaming.Payloads.HeaderSerializer.NotEnd">
+            <summary>
+            ASCII ‘0’. Signals this is not the end of a payload or multi-part payload.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Bot.Streaming.Payloads.HeaderSerializer.TypeOffset">
+            <summary>
+            The offset from the first character in the header to the Type section.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Bot.Streaming.Payloads.HeaderSerializer.TypeDelimiterOffset">
+            <summary>
+            The offset from the first character in the header to the Type delimiter.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Bot.Streaming.Payloads.HeaderSerializer.LengthOffset">
+            <summary>
+            The offset from the first character in the header to the Length section.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Bot.Streaming.Payloads.HeaderSerializer.LengthLength">
+            <summary>
+            The length in bytes of the Length value.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Bot.Streaming.Payloads.HeaderSerializer.LengthDelimeterOffset">
+            <summary>
+            The offset from the first character in the header to the Length delimiter.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Bot.Streaming.Payloads.HeaderSerializer.IdOffset">
+            <summary>
+            The offset from the first character in the header to the Id section.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Bot.Streaming.Payloads.HeaderSerializer.IdLength">
+            <summary>
+            The length in bytes of the ID section.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Bot.Streaming.Payloads.HeaderSerializer.IdDelimeterOffset">
+            <summary>
+            The offset from the first character in the header to the ID delimiter.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Bot.Streaming.Payloads.HeaderSerializer.EndOffset">
+            <summary>
+            The offset from the first character in the header to the End section.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Bot.Streaming.Payloads.HeaderSerializer.TerminatorOffset">
+            <summary>
+            The offset from the first character in the header to the Terminator section.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Payloads.HeaderSerializer.Serialize(Microsoft.Bot.Streaming.Payloads.Header,System.Byte[],System.Int32)">
+            <summary>
+            Serializes the passed in header into the passed in byte array.
+            </summary>
+            <param name="header">The <see cref="T:Microsoft.Bot.Streaming.Payloads.Header"/> to serialize.</param>
+            <param name="buffer">The byte array to store the serialized header in.</param>
+            <param name="offset">Deprecated offset used to begin writing to the buffer at a location other than 0.</param>
+            <returns>An int representing the maximum supported header length.</returns>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Payloads.HeaderSerializer.Deserialize(System.Byte[],System.Int32,System.Int32)">
+            <summary>
+            Deserialize the passed in byte array into the returned <see cref="T:Microsoft.Bot.Streaming.Payloads.Header"/>.
+            </summary>
+            <param name="buffer">The array containing bytes to be read.</param>
+            <param name="offset">Deprecated offset of header's starting location within the byte array.</param>
+            <param name="count">The length of the byte array.</param>
+            <returns>The <see cref="T:Microsoft.Bot.Streaming.Payloads.Header"/> deserialized from the byte array.</returns>
+        </member>
+        <member name="T:Microsoft.Bot.Streaming.Payloads.IContentStream">
+            <summary>
+            Implemented by stream attachments compatible with the Bot Framework Protocol 3 with Streaming Extensions.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Bot.Streaming.Payloads.IContentStream.Id">
+            <summary>
+            Gets a guid to use as the unique identifier of this ContentStream.
+            </summary>
+            <value>
+            Guid.
+            </value>
+        </member>
+        <member name="P:Microsoft.Bot.Streaming.Payloads.IContentStream.ContentType">
+            <summary>
+            Gets or sets the name of the type of the object contained within this ContentStream.
+            </summary>
+            <value>
+            Plain text type name.
+            </value>
+        </member>
+        <member name="P:Microsoft.Bot.Streaming.Payloads.IContentStream.Length">
+            <summary>
+            Gets or sets the length of this ContentStream.
+            </summary>
+            <value>
+            Null or a numeric value bound by Min/Max Int.
+            </value>
+        </member>
+        <member name="P:Microsoft.Bot.Streaming.Payloads.IContentStream.Stream">
+            <summary>
+            Gets the data contained within this ContentStream.
+            </summary>
+            <value>
+            A <see cref="P:Microsoft.Bot.Streaming.Payloads.IContentStream.Stream"/> of data.
+            </value>
+        </member>
+        <member name="T:Microsoft.Bot.Streaming.Payloads.IRequestManager">
+            <summary>
+            Manages the tasks involved in processing and responding to incoming <see cref="T:Microsoft.Bot.Streaming.StreamingRequest"/>s.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Payloads.IRequestManager.SignalResponseAsync(System.Guid,Microsoft.Bot.Streaming.ReceiveResponse)">
+            <summary>
+            Signal fired when all response tasks have completed.
+            </summary>
+            <param name="requestId">The ID of the <see cref="T:Microsoft.Bot.Streaming.StreamingRequest"/>.</param>
+            <param name="response">The <see cref="T:Microsoft.Bot.Streaming.ReceiveResponse"/> in response to the request.</param>
+            <returns>True when complete.</returns>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Payloads.IRequestManager.GetResponseAsync(System.Guid,System.Threading.CancellationToken)">
+            <summary>
+            Constructs and returns a response for this request.
+            </summary>
+            <param name="requestId">The ID of the <see cref="T:Microsoft.Bot.Streaming.StreamingRequest"/> being responded to.</param>
+            <param name="cancellationToken">A cancellation token.</param>
+            <returns>The response to the specified request.</returns>
+        </member>
+        <member name="T:Microsoft.Bot.Streaming.Payloads.IStreamManager">
+            <summary>
+            StreamManagers are used to provide access to the objects involved in processing incoming <see cref="T:Microsoft.Bot.Streaming.Payloads.PayloadStream"/>s.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Payloads.IStreamManager.GetPayloadAssembler(System.Guid)">
+            <summary>
+            Retrieves a <see cref="T:Microsoft.Bot.Streaming.Payloads.PayloadStreamAssembler"/> with the given ID if one exists, otherwise a new instance is created and assigned the given ID.
+            </summary>
+            <param name="id">The ID of the <see cref="T:Microsoft.Bot.Streaming.Payloads.PayloadStreamAssembler"/> to retrieve or create.</param>
+            <returns>The <see cref="T:Microsoft.Bot.Streaming.Payloads.PayloadStreamAssembler"/> with the given ID.</returns>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Payloads.IStreamManager.GetPayloadStream(Microsoft.Bot.Streaming.Payloads.Header)">
+            <summary>
+            Retrieves the <see cref="T:Microsoft.Bot.Streaming.Payloads.PayloadStream"/> from the <see cref="T:Microsoft.Bot.Streaming.Payloads.PayloadStreamAssembler"/> this manager manages.
+            </summary>
+            <param name="header">The <see cref="T:Microsoft.Bot.Streaming.Payloads.Header"/> of the <see cref="T:Microsoft.Bot.Streaming.Payloads.PayloadStream"/> to retrieve.</param>
+            <returns>The <see cref="T:Microsoft.Bot.Streaming.Payloads.PayloadStream"/> with the given header.</returns>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Payloads.IStreamManager.OnReceive(Microsoft.Bot.Streaming.Payloads.Header,System.IO.Stream,System.Int32)">
+            <summary>
+            Used to set the behavior of the managed <see cref="T:Microsoft.Bot.Streaming.Payloads.PayloadStreamAssembler"/> when data is received.
+            </summary>
+            <param name="header">The <see cref="T:Microsoft.Bot.Streaming.Payloads.Header"/> of the stream.</param>
+            <param name="contentStream">The <see cref="T:System.IO.Stream"/> to write incoming data to.</param>
+            <param name="contentLength">The amount of data to write to the contentStream.</param>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Payloads.IStreamManager.CloseStream(System.Guid)">
+            <summary>
+            Closes the <see cref="T:Microsoft.Bot.Streaming.Payloads.PayloadStreamAssembler"/> assigned to the <see cref="T:Microsoft.Bot.Streaming.Payloads.PayloadStream"/> with the given ID.
+            </summary>
+            <param name="id">The ID of the <see cref="T:Microsoft.Bot.Streaming.Payloads.PayloadStream"/> to close.</param>
+        </member>
+        <member name="T:Microsoft.Bot.Streaming.Payloads.Header">
+            <summary>
+            The 48-byte, fixed size, header prefaces every payload. The header must always have the
+            same shape, regardless of if its payload is a request, response, or content.It is a
+            period-delimited ASCII-encoded string terminated with a newline.All headers must have
+            these segments, and all values must be zero padded to fill the correct number of bytes:
+            |Title Size        Description
+            |Type            1 byte ASCII-encoded char. Describes the format of the payload(request, response, stream, etc.)
+            |Delimiter       1 byte ASCII period character.
+            |Length          6 bytes ASCII-encoded decimal. Size in bytes of this payload in ASCII decimal, not including the header. Zero padded.
+            |Delimiter       1 byte ASCII period character.
+            |ID              36 bytes ASCII-encoded hex. GUID (Request ID, Stream ID, etc.).
+            |Delimiter       1 byte ASCII period character.
+            |End             1 byte ASCII ‘0’ or ‘1’. Signals the end of a payload or multi-part payload.
+            |Terminator      1 byte Hardcoded to \n .
+             ex: A.000168.68e999ca-a651-40f4-ad8f-3aaf781862b4.1\n end example.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Bot.Streaming.Payloads.Header.Type">
+            <summary>
+            Gets or sets the 1 byte ASCII-encoded char. Describes the format of the payload(request, response, stream, etc.).
+            </summary>
+            <value>
+            The 1 byte ASCII-encoded char. Describes the format of the payload(request, response, stream, etc.).
+            </value>
+        </member>
+        <member name="P:Microsoft.Bot.Streaming.Payloads.Header.PayloadLength">
+            <summary>
+            Gets or sets the 6 bytes ASCII-encoded decimal. Size in bytes of this payload in ASCII decimal, not including the header. Zero padded.
+            </summary>
+            <value>
+            The 6 bytes ASCII-encoded decimal. Size in bytes of this payload in ASCII decimal, not including the header. Zero padded. 
+            </value>
+        </member>
+        <member name="P:Microsoft.Bot.Streaming.Payloads.Header.Id">
+            <summary>
+            Gets or sets the 36 bytes ASCII-encoded hex. GUID (Request ID, Stream ID, etc.).
+            </summary>
+            <value>
+            The 36 bytes ASCII-encoded hex. GUID (Request ID, Stream ID, etc.).
+            </value>
+        </member>
+        <member name="P:Microsoft.Bot.Streaming.Payloads.Header.End">
+            <summary>
+            Gets or sets a value indicating whether the 1 byte ASCII value is ‘0’ or ‘1’. Signals the end of a payload or multi-part payload.
+            </summary>
+            <value>
+            The 1 byte ASCII ‘0’ or ‘1’. Signals the end of a payload or multi-part payload.
+            </value>
+        </member>
+        <member name="T:Microsoft.Bot.Streaming.Payloads.PayloadTypes">
+            <summary>
+            A set of well known definitions of <see cref="T:Microsoft.Bot.Streaming.Payloads.PayloadStream"/> types used by <see cref="T:Microsoft.Bot.Streaming.Payloads.Header"/>s.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Bot.Streaming.Payloads.PayloadTypes.Request">
+            <summary>
+            'A' to mark a <see cref="T:Microsoft.Bot.Streaming.StreamingRequest"/>.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Bot.Streaming.Payloads.PayloadTypes.Response">
+            <summary>
+            'B' to mark a <see cref="T:Microsoft.Bot.Streaming.StreamingResponse"/>.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Bot.Streaming.Payloads.PayloadTypes.Stream">
+            <summary>
+            'S' to mark a <see cref="T:Microsoft.Bot.Streaming.Payloads.PayloadStream"/>.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Bot.Streaming.Payloads.PayloadTypes.CancelAll">
+            <summary>
+            'X' to cancel all in progress communication.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Bot.Streaming.Payloads.PayloadTypes.CancelStream">
+            <summary>
+            'C' to cancel a specific <see cref="T:Microsoft.Bot.Streaming.Payloads.PayloadStream"/>.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Payloads.PayloadTypes.IsStream(Microsoft.Bot.Streaming.Payloads.Header)">
+            <summary>
+            A helper method for checking if a <see cref="T:Microsoft.Bot.Streaming.Payloads.Header"/> represents a <see cref="T:Microsoft.Bot.Streaming.Payloads.PayloadStream"/>.
+            </summary>
+            <param name="header">The header to type check.</param>
+            <returns>True if the header represents a <see cref="T:Microsoft.Bot.Streaming.Payloads.PayloadStream"/>, otherwise false.</returns>
+        </member>
+        <member name="P:Microsoft.Bot.Streaming.Payloads.RequestPayload.Verb">
+            <summary>
+            Gets or sets request verb, null on responses.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Bot.Streaming.Payloads.RequestPayload.Path">
+            <summary>
+            Gets or sets request path; null on responses.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Bot.Streaming.Payloads.RequestPayload.Streams">
+            <summary>
+            Gets or sets assoicated stream descriptions.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Bot.Streaming.Payloads.ResponsePayload.StatusCode">
+            <summary>
+            Gets or sets status - The Response Status.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Bot.Streaming.Payloads.ResponsePayload.Streams">
+            <summary>
+            Gets or sets assoicated stream descriptions.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Bot.Streaming.Payloads.StreamDescription">
+            <summary>
+            An easily serializable object used to store the ID, Type, and Length of a <see cref="T:Microsoft.Bot.Streaming.Payloads.PayloadStream"/> without touching the stream itself.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Bot.Streaming.Payloads.StreamDescription.Id">
+            <summary>
+            Gets or sets the ID of the <see cref="T:Microsoft.Bot.Streaming.Payloads.PayloadStream"/> this StreamDescription describes.
+            </summary>
+            <value>
+            The ID of the <see cref="T:Microsoft.Bot.Streaming.Payloads.PayloadStream"/> this StreamDescription describes.
+            </value>
+        </member>
+        <member name="P:Microsoft.Bot.Streaming.Payloads.StreamDescription.ContentType">
+            <summary>
+            Gets or sets the type (<see cref="T:Microsoft.Bot.Streaming.Transport.TransportConstants"/>) of the content contained in the described <see cref="T:Microsoft.Bot.Streaming.Payloads.PayloadStream"/>.
+            </summary>
+            <value>
+            The type (<see cref="T:Microsoft.Bot.Streaming.Transport.TransportConstants"/>) of the content contained in the described <see cref="T:Microsoft.Bot.Streaming.Payloads.PayloadStream"/>.
+            </value>
+        </member>
+        <member name="P:Microsoft.Bot.Streaming.Payloads.StreamDescription.Length">
+            <summary>
+            Gets or sets the length of the described <see cref="T:Microsoft.Bot.Streaming.Payloads.PayloadStream"/>.
+            </summary>
+            <value>
+            The length of the described <see cref="T:Microsoft.Bot.Streaming.Payloads.PayloadStream"/>.
+            </value>
+        </member>
+        <member name="T:Microsoft.Bot.Streaming.Payloads.PayloadStream">
+            <summary>
+            An extension of <see cref="T:System.IO.Stream"/> that operates in conjunction with a <see cref="T:Microsoft.Bot.Streaming.Payloads.PayloadStreamAssembler"/> to convert raw bytes into a consumable form.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Payloads.PayloadStream.#ctor(Microsoft.Bot.Streaming.Payloads.PayloadStreamAssembler)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Bot.Streaming.Payloads.PayloadStream"/> class.
+            </summary>
+            <param name="assembler">The <see cref="T:Microsoft.Bot.Streaming.Payloads.PayloadStreamAssembler"/> to use when constructing this stream.</param>
+        </member>
+        <member name="P:Microsoft.Bot.Streaming.Payloads.PayloadStream.CanRead">
+            <inheritdoc/>
+        </member>
+        <member name="P:Microsoft.Bot.Streaming.Payloads.PayloadStream.CanSeek">
+            <inheritdoc/>
+        </member>
+        <member name="P:Microsoft.Bot.Streaming.Payloads.PayloadStream.CanWrite">
+            <inheritdoc/>
+        </member>
+        <member name="P:Microsoft.Bot.Streaming.Payloads.PayloadStream.Position">
+            <inheritdoc/>
+        </member>
+        <member name="P:Microsoft.Bot.Streaming.Payloads.PayloadStream.Length">
+            <inheritdoc/>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Payloads.PayloadStream.Flush">
+            <summary>
+            No-op. PayloadStreams should never be flushed, so we override Stream's Flush to make sure no caller attempts to flush a PayloadStream.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Payloads.PayloadStream.SetLength(System.Int64)">
+            <summary>
+            Not supported. Throws <see cref="T:System.NotSupportedException"/>.
+            </summary>
+            <param name="value">No-op.</param>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Payloads.PayloadStream.Seek(System.Int64,System.IO.SeekOrigin)">
+            <summary>
+            Not supported. Throws <see cref="T:System.NotSupportedException"/>.
+            </summary>
+            <param name="offset">No-op.</param>
+            <param name="origin">No-op also.</param>
+            <returns>Throws <see cref="T:System.NotSupportedException"/>.</returns>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Payloads.PayloadStream.ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Payloads.PayloadStream.WriteAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Payloads.PayloadStream.Write(System.Byte[],System.Int32,System.Int32)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Payloads.PayloadStream.Cancel">
+            <summary>
+            Closes the connected <see cref="T:Microsoft.Bot.Streaming.Payloads.PayloadStreamAssembler"/> and ends production.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Payloads.PayloadStream.Read(System.Byte[],System.Int32,System.Int32)">
+            <summary>
+            This function is called by StreamReader when processing streams.
+            It will appear to have no references, but is in fact required to
+            be implemented by StreamReader, just like Length.
+            </summary>
+            <param name="buffer">The buffer to read from.</param>
+            <param name="offset">The position to begin reading from.</param>
+            <param name="count">The amount to attempt to read.</param>
+            <returns>The number of chunks remaining unread in the buffer.</returns>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Payloads.PayloadStream.DoneProducing">
+            <summary>
+            Called when production is cancelled or completed.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Payloads.PayloadStream.GiveBuffer(System.Byte[],System.Int32)">
+            <summary>
+            Releases the buffered data.
+            </summary>
+            <param name="buffer">The data buffer.</param>
+            <param name="count">The amount of data contained in the buffer.</param>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Payloads.PayloadStream.Dispose(System.Boolean)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Microsoft.Bot.Streaming.Payloads.RequestManager">
+            <summary>
+             Manages the tasks involved in processing and responding to incoming <see cref="T:Microsoft.Bot.Streaming.StreamingRequest"/>s.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Payloads.RequestManager.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Bot.Streaming.Payloads.RequestManager"/> class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Payloads.RequestManager.#ctor(System.Collections.Concurrent.ConcurrentDictionary{System.Guid,System.Threading.Tasks.TaskCompletionSource{Microsoft.Bot.Streaming.ReceiveResponse}})">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Bot.Streaming.Payloads.RequestManager"/> class.
+            </summary>
+            <param name="responseTasks">A set of tasks to manage.</param>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Payloads.RequestManager.SignalResponseAsync(System.Guid,Microsoft.Bot.Streaming.ReceiveResponse)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Payloads.RequestManager.GetResponseAsync(System.Guid,System.Threading.CancellationToken)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Microsoft.Bot.Streaming.Payloads.ResponseMessageStream">
+            <summary>
+            An attachment contained within a <see cref="T:Microsoft.Bot.Streaming.StreamingRequest"/>'s stream collection,
+            which itself contains any form of media item.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Payloads.ResponseMessageStream.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Bot.Streaming.Payloads.ResponseMessageStream"/> class.
+            and assigns an unique guid as its Id.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Payloads.ResponseMessageStream.#ctor(System.Guid)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Bot.Streaming.Payloads.ResponseMessageStream"/> class.
+            </summary>
+            <param name="id">A <see cref="T:System.Guid"/> to assign as the Id of this instance of <see cref="T:Microsoft.Bot.Streaming.Payloads.ResponseMessageStream"/>.
+            If null a new <see cref="T:System.Guid"/> will be generated.
+            </param>
+        </member>
+        <member name="P:Microsoft.Bot.Streaming.Payloads.ResponseMessageStream.Id">
+            <summary>
+            Gets the <see cref="T:System.Guid"/> used to identify this <see cref="T:Microsoft.Bot.Streaming.Payloads.ResponseMessageStream"/>.
+            </summary>
+            <value>
+            A <see cref="T:System.Guid"/> used to identify this <see cref="T:Microsoft.Bot.Streaming.Payloads.ResponseMessageStream"/>.
+            </value>
+        </member>
+        <member name="P:Microsoft.Bot.Streaming.Payloads.ResponseMessageStream.Content">
+            <summary>
+            Gets or sets the <see cref="T:System.Net.Http.HttpContent"/> of this <see cref="T:Microsoft.Bot.Streaming.Payloads.ResponseMessageStream"/>.
+            </summary>
+            <value>
+            The <see cref="T:System.Net.Http.HttpContent"/> of this <see cref="T:Microsoft.Bot.Streaming.Payloads.ResponseMessageStream"/>.
+            </value>
+        </member>
+        <member name="T:Microsoft.Bot.Streaming.Payloads.SendOperations">
+            <summary>
+            A set of tasks used for attaching one or more <see cref="T:Microsoft.Bot.Streaming.Payloads.PayloadDisassembler"/>s to a single <see cref="T:Microsoft.Bot.Streaming.PayloadTransport.PayloadSender"/> which multiplexes data chunks from
+            multiple disassembled payloads and sends them out over the wire via a shared <see cref="T:Microsoft.Bot.Streaming.Transport.ITransportSender"/>.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Payloads.SendOperations.#ctor(Microsoft.Bot.Streaming.PayloadTransport.IPayloadSender)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Bot.Streaming.Payloads.SendOperations"/> class.
+            </summary>
+            <param name="payloadSender">The <see cref="T:Microsoft.Bot.Streaming.PayloadTransport.IPayloadSender"/> that will send the disassembled data from all of this instance's send operations.</param>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Payloads.SendOperations.SendRequestAsync(System.Guid,Microsoft.Bot.Streaming.StreamingRequest,System.Threading.CancellationToken)">
+            <summary>
+            The send operation used to send a <see cref="T:Microsoft.Bot.Streaming.StreamingRequest"/>.
+            </summary>
+            <param name="id">The ID to assign to the <see cref="T:Microsoft.Bot.Streaming.Payloads.RequestDisassembler"/> used by this operation.</param>
+            <param name="request">The request to send.</param>
+            <param name="cancellationToken">A cancelation token. Unused.</param>
+            <returns>A task representing the status of the operation.</returns>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Payloads.SendOperations.SendResponseAsync(System.Guid,Microsoft.Bot.Streaming.StreamingResponse)">
+            <summary>
+            The send operation used to send a <see cref="F:Microsoft.Bot.Streaming.Payloads.PayloadTypes.Response"/>.
+            </summary>
+            <param name="id">The ID to assign to the <see cref="T:Microsoft.Bot.Streaming.Payloads.ResponseDisassembler"/> used by this operation.</param>
+            <param name="response">The response to send.</param>
+            <returns>A task representing the status of the operation.</returns>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Payloads.SendOperations.SendCancelAllAsync(System.Guid)">
+            <summary>
+            The send operation used to send a <see cref="F:Microsoft.Bot.Streaming.Payloads.PayloadTypes.CancelAll"/>.
+            </summary>
+            <param name="id">The ID to assign to the <see cref="T:Microsoft.Bot.Streaming.Payloads.CancelDisassembler"/> used by this operation.</param>
+            <returns>A task representing the status of the operation.</returns>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Payloads.SendOperations.SendCancelStreamAsync(System.Guid)">
+            <summary>
+            The send operation used to send a <see cref="F:Microsoft.Bot.Streaming.Payloads.PayloadTypes.CancelStream"/>.
+            </summary>
+            <param name="id">The ID to assign to the <see cref="T:Microsoft.Bot.Streaming.Payloads.CancelDisassembler"/> used by this operation.</param>
+            <returns>A task representing the status of the operation.</returns>
+        </member>
+        <member name="T:Microsoft.Bot.Streaming.Payloads.StreamManager">
+            <summary>
+            StreamManagers are used to provide access to the objects involved in processing incoming <see cref="T:Microsoft.Bot.Streaming.Payloads.PayloadStream"/>s.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Payloads.StreamManager.#ctor(System.Action{Microsoft.Bot.Streaming.Payloads.PayloadStreamAssembler})">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Bot.Streaming.Payloads.StreamManager"/> class.
+            </summary>
+            <param name="onCancelStream">Optional action to trigger if the managed stream is cancelled.</param>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Payloads.StreamManager.GetPayloadAssembler(System.Guid)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Payloads.StreamManager.GetPayloadStream(Microsoft.Bot.Streaming.Payloads.Header)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Payloads.StreamManager.OnReceive(Microsoft.Bot.Streaming.Payloads.Header,System.IO.Stream,System.Int32)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Payloads.StreamManager.CloseStream(System.Guid)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Microsoft.Bot.Streaming.PayloadTransport.IPayloadReceiver">
+            <summary>
+            PayloadReceivers subscribe to incoming streams and manage the consumption of raw data as it comes in.
+            </summary>
+        </member>
+        <member name="E:Microsoft.Bot.Streaming.PayloadTransport.IPayloadReceiver.Disconnected">
+            <summary>
+            Emitted when the PayloadReceiver becomes disconneced from the <see cref="T:Microsoft.Bot.Streaming.Transport.ITransportReceiver"/>.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Bot.Streaming.PayloadTransport.IPayloadReceiver.IsConnected">
+            <summary>
+            Gets a value indicating whether the PayloadReceiver is currently connected to an <see cref="T:Microsoft.Bot.Streaming.Transport.ITransportReceiver"/>.
+            </summary>
+            <value>
+            The value indicating if the PayloadReceiver is currently connected to an <see cref="T:Microsoft.Bot.Streaming.Transport.ITransportReceiver"/>.
+            </value>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.PayloadTransport.IPayloadReceiver.Connect(Microsoft.Bot.Streaming.Transport.ITransportReceiver)">
+            <summary>
+            Connects the PayloadReceiver to the passed in <see cref="T:Microsoft.Bot.Streaming.Transport.ITransportReceiver"/>.
+            </summary>
+            <param name="receiver">The <see cref="T:Microsoft.Bot.Streaming.Transport.ITransportReceiver"/> to connect this PayloadReceiver to.</param>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.PayloadTransport.IPayloadReceiver.Subscribe(System.Func{Microsoft.Bot.Streaming.Payloads.Header,System.IO.Stream},System.Action{Microsoft.Bot.Streaming.Payloads.Header,System.IO.Stream,System.Int32})">
+            <summary>
+            Sets the behaviors used to attach to a specified <see cref="T:System.IO.Stream"/> and on receiving data on said Stream.
+            </summary>
+            <param name="getStream">The function executed to attach to the specified <see cref="T:System.IO.Stream"/>.</param>
+            <param name="receiveAction">The function to execute when new data is received from the attached <see cref="T:System.IO.Stream"/>.</param>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.PayloadTransport.IPayloadReceiver.Disconnect(Microsoft.Bot.Streaming.Transport.DisconnectedEventArgs)">
+            <summary>
+            Disconnects the PayloadReceiver from its <see cref="T:Microsoft.Bot.Streaming.Transport.ITransportReceiver"/>.
+            </summary>
+            <param name="e">Optional arguments to proprogate during disconnection.</param>
+        </member>
+        <member name="T:Microsoft.Bot.Streaming.PayloadTransport.IPayloadSender">
+            <summary>
+            Each PayloadSender manages writing raw data to an outgoing <see cref="T:Microsoft.Bot.Streaming.Transport.ITransportSender"/>.
+            </summary>
+        </member>
+        <member name="E:Microsoft.Bot.Streaming.PayloadTransport.IPayloadSender.Disconnected">
+            <summary>
+            Emitted when the PayloadSender becomes disconneced from the <see cref="T:Microsoft.Bot.Streaming.Transport.ITransportSender"/>.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Bot.Streaming.PayloadTransport.IPayloadSender.IsConnected">
+            <summary>
+            Gets a value indicating whether the PayloadSender is currently connected to an <see cref="T:Microsoft.Bot.Streaming.Transport.ITransportSender"/>.
+            </summary>
+            <value>
+            The value indicating if the PayloadSender is currently connected to an <see cref="T:Microsoft.Bot.Streaming.Transport.ITransportSender"/>.
+            </value>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.PayloadTransport.IPayloadSender.Connect(Microsoft.Bot.Streaming.Transport.ITransportSender)">
+            <summary>
+            Connects the PayloadSender to the passed in <see cref="T:Microsoft.Bot.Streaming.Transport.ITransportSender"/>.
+            </summary>
+            <param name="sender">The <see cref="T:Microsoft.Bot.Streaming.Transport.ITransportSender"/> to connect this PayloadSender to.</param>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.PayloadTransport.IPayloadSender.SendPayload(Microsoft.Bot.Streaming.Payloads.Header,System.IO.Stream,System.Boolean,System.Func{Microsoft.Bot.Streaming.Payloads.Header,System.Threading.Tasks.Task})">
+            <summary>
+            Begins the process of writing the given payload to the outgoing <see cref="T:System.IO.Stream"/> and sets the callback to trigger when complete.
+            </summary>
+            <param name="header">The <see cref="T:Microsoft.Bot.Streaming.Payloads.Header"/> to write to the outgoing <see cref="T:Microsoft.Bot.Streaming.Payloads.PayloadStream"/>.</param>
+            <param name="payload">The <see cref="T:System.IO.Stream"/> containing the data to write to the outgoing <see cref="T:Microsoft.Bot.Streaming.Payloads.PayloadStream"/>.</param>
+            <param name="isLengthKnown">True if the stream length is known, otherwise false.</param>
+            <param name="sentCallback">The function to trigger once the send operation is complete.</param>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.PayloadTransport.IPayloadSender.Disconnect(Microsoft.Bot.Streaming.Transport.DisconnectedEventArgs)">
+            <summary>
+            Disconnects the PayloadSender from its <see cref="T:Microsoft.Bot.Streaming.Transport.ITransportSender"/>.
+            </summary>
+            <param name="e">Optional arguments to proprogate during disconnection.</param>
+        </member>
+        <member name="T:Microsoft.Bot.Streaming.PayloadTransport.PayloadReceiver">
+            <summary>
+            PayloadReceivers subscribe to incoming streams and manage the consumption of raw data as it comes in.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.PayloadTransport.PayloadReceiver.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Bot.Streaming.PayloadTransport.PayloadReceiver"/> class.
+            </summary>
+        </member>
+        <member name="E:Microsoft.Bot.Streaming.PayloadTransport.PayloadReceiver.Disconnected">
+            <inheritdoc/>
+        </member>
+        <member name="P:Microsoft.Bot.Streaming.PayloadTransport.PayloadReceiver.IsConnected">
+            <inheritdoc/>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.PayloadTransport.PayloadReceiver.Connect(Microsoft.Bot.Streaming.Transport.ITransportReceiver)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.PayloadTransport.PayloadReceiver.Subscribe(System.Func{Microsoft.Bot.Streaming.Payloads.Header,System.IO.Stream},System.Action{Microsoft.Bot.Streaming.Payloads.Header,System.IO.Stream,System.Int32})">
+            <inheritdoc/>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.PayloadTransport.PayloadReceiver.Disconnect(Microsoft.Bot.Streaming.Transport.DisconnectedEventArgs)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.PayloadTransport.PayloadReceiver.Dispose">
+            <summary>
+            Disposes the object and releases any related objects owned by the class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.PayloadTransport.PayloadReceiver.Dispose(System.Boolean)">
+            <summary>
+            Disposes objected used by the class.
+            </summary>
+            <param name="disposing">A Boolean that indicates whether the method call comes from a Dispose method (its value is true) or from a finalizer (its value is false).</param>
+            <remarks>
+            The disposing parameter should be false when called from a finalizer, and true when called from the IDisposable.Dispose method.
+            In other words, it is true when deterministically called and false when non-deterministically called.
+            </remarks>
+        </member>
+        <member name="T:Microsoft.Bot.Streaming.PayloadTransport.PayloadSender">
+            <summary>
+            On Send: queues up sends and sends them along the transport.
+            On Receive: receives a packet header and some bytes and dispatches it to the subscriber.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.PayloadTransport.PayloadSender.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Bot.Streaming.PayloadTransport.PayloadSender"/> class.
+            </summary>
+        </member>
+        <member name="E:Microsoft.Bot.Streaming.PayloadTransport.PayloadSender.Disconnected">
+            <inheritdoc/>
+        </member>
+        <member name="P:Microsoft.Bot.Streaming.PayloadTransport.PayloadSender.IsConnected">
+            <inheritdoc/>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.PayloadTransport.PayloadSender.Connect(Microsoft.Bot.Streaming.Transport.ITransportSender)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.PayloadTransport.PayloadSender.SendPayload(Microsoft.Bot.Streaming.Payloads.Header,System.IO.Stream,System.Boolean,System.Func{Microsoft.Bot.Streaming.Payloads.Header,System.Threading.Tasks.Task})">
+            <inheritdoc/>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.PayloadTransport.PayloadSender.Disconnect(Microsoft.Bot.Streaming.Transport.DisconnectedEventArgs)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.PayloadTransport.PayloadSender.Dispose">
+            <summary>
+            Disposes the object and releases any related objects owned by the class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.PayloadTransport.PayloadSender.Dispose(System.Boolean)">
+            <summary>
+            Disposes objected used by the class.
+            </summary>
+            <param name="disposing">A Boolean that indicates whether the method call comes from a Dispose method (its value is true) or from a finalizer (its value is false).</param>
+            <remarks>
+            The disposing parameter should be false when called from a finalizer, and true when called from the IDisposable.Dispose method.
+            In other words, it is true when deterministically called and false when non-deterministically called.
+            </remarks>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.PayloadTransport.SendQueue`1.Dispose">
+            <summary>
+            Disposes the object and releases any related objects owned by the class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.PayloadTransport.SendQueue`1.Dispose(System.Boolean)">
+            <summary>
+            Disposes objected used by the class.
+            </summary>
+            <param name="disposing">A Boolean that indicates whether the method call comes from a Dispose method (its value is true) or from a finalizer (its value is false).</param>
+            <remarks>
+            The disposing parameter should be false when called from a finalizer, and true when called from the IDisposable.Dispose method.
+            In other words, it is true when deterministically called and false when non-deterministically called.
+            </remarks>
+        </member>
+        <member name="T:Microsoft.Bot.Streaming.PayloadTransport.TransportDisconnectedException">
+            <summary>
+            Exception throw when the transport is disconnected.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.PayloadTransport.TransportDisconnectedException.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Bot.Streaming.PayloadTransport.TransportDisconnectedException"/> class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.PayloadTransport.TransportDisconnectedException.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Bot.Streaming.PayloadTransport.TransportDisconnectedException"/> class.
+            </summary>
+            <param name="message">A message describing the reason for the exception.</param>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.PayloadTransport.TransportDisconnectedException.#ctor(System.String,System.Exception)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Bot.Streaming.PayloadTransport.TransportDisconnectedException"/> class.
+            </summary>
+            <param name="message">A message describing the reason for the exception.</param>
+            <param name="innerException">A reference to an inner exception that caused this exception exception.</param>
+        </member>
+        <member name="P:Microsoft.Bot.Streaming.PayloadTransport.TransportDisconnectedException.Reason">
+            <summary>
+            Gets the reason for the exception.
+            </summary>
+            <value>
+            The reason for the exception.
+            </value>
+        </member>
+        <member name="T:Microsoft.Bot.Streaming.ReceiveRequest">
+            <summary>
+            An incoming request from a remote client.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Bot.Streaming.ReceiveRequest.Verb">
+            <summary>
+            Gets or sets the verb action this request wants to perform.
+            </summary>
+            <value>
+            The string representation of an HTTP verb.
+            </value>
+        </member>
+        <member name="P:Microsoft.Bot.Streaming.ReceiveRequest.Path">
+            <summary>
+            Gets or sets the path this request wants to be routed to.
+            </summary>
+            <value>
+            The string representation of the URL style path to request wants to be routed to.
+            </value>
+        </member>
+        <member name="P:Microsoft.Bot.Streaming.ReceiveRequest.Streams">
+            <summary>
+            Gets or sets the collection of stream attachments included in this request.
+            </summary>
+            <value>
+            A <see cref="T:System.Collections.Generic.List`1"/> of <see cref="T:Microsoft.Bot.Streaming.Payloads.IContentStream"/> items associated with this request.
+            </value>
+        </member>
+        <member name="T:Microsoft.Bot.Streaming.ReceiveRequestExtensions">
+            <summary>
+            Helper methods added to the <see cref="T:Microsoft.Bot.Streaming.ReceiveRequest"/> class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.ReceiveRequestExtensions.ReadBodyAsJson``1(Microsoft.Bot.Streaming.ReceiveRequest)">
+            <summary>
+            Serializes the body of this <see cref="T:Microsoft.Bot.Streaming.ReceiveRequest"/> as JSON.
+            </summary>
+            <typeparam name="T">The type to attempt to deserialize the contents of this <see cref="T:Microsoft.Bot.Streaming.ReceiveRequest"/>'s body into.</typeparam>
+            <param name="request">The current instance of <see cref="T:Microsoft.Bot.Streaming.ReceiveRequest"/>.</param>
+            <returns>On success, an object of type T populated with data serialized from the <see cref="T:Microsoft.Bot.Streaming.ReceiveRequest"/> body.
+            Otherwise a default instance of type T.
+            </returns>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.ReceiveRequestExtensions.ReadBodyAsJsonAsync``1(Microsoft.Bot.Streaming.ReceiveRequest)">
+            <summary>
+            Serializes the body of this <see cref="T:Microsoft.Bot.Streaming.ReceiveRequest"/> as JSON.
+            </summary>
+            <typeparam name="T">The type to attempt to deserialize the contents of this <see cref="T:Microsoft.Bot.Streaming.ReceiveRequest"/>'s body into.</typeparam>
+            <param name="request">The current instance of <see cref="T:Microsoft.Bot.Streaming.ReceiveRequest"/>.</param>
+            <returns>On success, an object of type T populated with data serialized from the <see cref="T:Microsoft.Bot.Streaming.ReceiveRequest"/> body.
+            Otherwise a default instance of type T.
+            </returns>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.ReceiveRequestExtensions.ReadBodyAsString(Microsoft.Bot.Streaming.ReceiveRequest)">
+            <summary>
+            Reads the body of this <see cref="T:Microsoft.Bot.Streaming.ReceiveRequest"/> as a string.
+            </summary>
+            <param name="request">The current instance of <see cref="T:Microsoft.Bot.Streaming.ReceiveRequest"/>.</param>
+            <returns>On success, a string populated with data read from the <see cref="T:Microsoft.Bot.Streaming.ReceiveRequest"/> body.
+            Otherwise null.
+            </returns>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.ReceiveRequestExtensions.ReadBodyAsStringAsync(Microsoft.Bot.Streaming.ReceiveRequest)">
+            <summary>
+            Reads the body of this <see cref="T:Microsoft.Bot.Streaming.ReceiveRequest"/> as a string.
+            </summary>
+            <param name="request">The current instance of <see cref="T:Microsoft.Bot.Streaming.ReceiveRequest"/>.</param>
+            <returns>On success, a string populated with data read from the <see cref="T:Microsoft.Bot.Streaming.ReceiveRequest"/> body.
+            Otherwise null.
+            </returns>
+        </member>
+        <member name="T:Microsoft.Bot.Streaming.ReceiveResponse">
+            <summary>
+            A response received by a <see cref="T:Microsoft.Bot.Streaming.Transport.IStreamingTransportServer"/> or <see cref="T:Microsoft.Bot.Streaming.Transport.IStreamingTransportClient"/>.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Bot.Streaming.ReceiveResponse.StatusCode">
+            <summary>
+            Gets or sets the status code of this response.
+            </summary>
+            <value>
+            The numeric portion of a status code.
+            </value>
+        </member>
+        <member name="P:Microsoft.Bot.Streaming.ReceiveResponse.Streams">
+            <summary>
+            Gets or sets the collection of <see cref="T:Microsoft.Bot.Streaming.Payloads.IContentStream"/>s contained within this response.
+            </summary>
+            <value>
+            A <see cref="T:System.Collections.Generic.List`1"/> of type <see cref="T:Microsoft.Bot.Streaming.Payloads.IContentStream"/> containing information on streams attached to this response.
+            </value>
+        </member>
+        <member name="T:Microsoft.Bot.Streaming.ReceiveResponseExtensions">
+            <summary>
+            Helper methods added to the <see cref="T:Microsoft.Bot.Streaming.ReceiveResponse"/> class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.ReceiveResponseExtensions.ReadBodyAsJson``1(Microsoft.Bot.Streaming.ReceiveResponse)">
+            <summary>
+            Serializes the body of this <see cref="T:Microsoft.Bot.Streaming.ReceiveResponse"/> as JSON.
+            </summary>
+            <typeparam name="T">The type to attempt to deserialize the contents of this <see cref="T:Microsoft.Bot.Streaming.ReceiveResponse"/>'s body into.</typeparam>
+            <param name="response">The current instance of <see cref="T:Microsoft.Bot.Streaming.ReceiveResponse"/>.</param>
+            <returns>On success, an object of type T populated with data serialized from the <see cref="T:Microsoft.Bot.Streaming.ReceiveResponse"/> body.
+            Otherwise a default instance of type T.
+            </returns>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.ReceiveResponseExtensions.ReadBodyAsString(Microsoft.Bot.Streaming.ReceiveResponse)">
+            <summary>
+            Serializes the body of this <see cref="T:Microsoft.Bot.Streaming.ReceiveResponse"/> as a <see cref="T:System.String"/>.
+            </summary>
+            <param name="response">The current instance of <see cref="T:Microsoft.Bot.Streaming.ReceiveResponse"/>.</param>
+            <returns>On success, an <see cref="T:System.String"/> of the data from the <see cref="T:Microsoft.Bot.Streaming.ReceiveResponse"/> body.
+            </returns>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.ReceiveResponseExtensions.ReadBodyAsStringAsync(Microsoft.Bot.Streaming.ReceiveResponse)">
+            <summary>
+            Serializes the body of this <see cref="T:Microsoft.Bot.Streaming.ReceiveResponse"/> as a <see cref="T:System.String"/>.
+            </summary>
+            <param name="response">The current instance of <see cref="T:Microsoft.Bot.Streaming.ReceiveResponse"/>.</param>
+            <returns>On success, an <see cref="T:System.String"/> of the data from the <see cref="T:Microsoft.Bot.Streaming.ReceiveResponse"/> body.
+            </returns>
+        </member>
+        <member name="T:Microsoft.Bot.Streaming.RequestHandler">
+            <summary>
+            Implemented by classes used to process incoming requests sent over an IStreamingTransport and adhering to the Bot Framework Protocol v3 with Streaming Extensions.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.RequestHandler.ProcessRequestAsync(Microsoft.Bot.Streaming.ReceiveRequest,Microsoft.Extensions.Logging.ILogger{Microsoft.Bot.Streaming.RequestHandler},System.Object,System.Threading.CancellationToken)">
+            <summary>
+            The method that must be implemented in order to handle incoming requests.
+            </summary>
+            <param name="request">A <see cref="T:Microsoft.Bot.Streaming.ReceiveRequest"/> for this handler to process.</param>
+            <param name="logger">Logger.</param>
+            <param name="context">Optional context to process the request within.</param>
+            <param name="cancellationToken">Cancellation token.</param>
+            <returns>A <see cref="T:System.Threading.Tasks.Task"/> that will produce a <see cref="T:Microsoft.Bot.Streaming.StreamingResponse"/> on successful completion.</returns>
+        </member>
+        <member name="T:Microsoft.Bot.Streaming.SerializationSettings">
+            <summary>
+            This class defines the settings used when serializing data contained by objects
+            included as part of the Bot Framework Protocol v3 with Streaming Extensions.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Bot.Streaming.SerializationSettings.ApplicationJson">
+            <summary>
+            The value that should be used as the content-type header for application json.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Bot.Streaming.SerializationSettings.BotSchemaSerializationSettings">
+            <summary>
+            The serialization settings for use when operating on objects defined within the bot schema.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Bot.Streaming.SerializationSettings.DefaultSerializationSettings">
+            <summary>
+            The default serialization settings for use in most cases.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Bot.Streaming.SerializationSettings.DefaultDeserializationSettings">
+            <summary>
+            The default deserialization settings for use in most cases.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.StreamExtensions.ReadAsUtf8StringAsync(System.IO.Stream)">
+            <summary>
+            Read the contents of the stream and convert to an Utf8 string.
+            </summary>
+            <param name="stream">The stream.</param>
+            <returns>A <see cref="T:System.Threading.Tasks.Task"/> representing the asynchronous operation.</returns>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.StreamExtensions.ReadAsUtf8String(System.IO.Stream)">
+            <summary>
+            Read the contents of the stream and convert to an Utf8 string.
+            </summary>
+            <param name="stream">The stream.</param>
+            <returns>Stream contents as string.</returns>
+        </member>
+        <member name="T:Microsoft.Bot.Streaming.StreamingRequest">
+            <summary>
+            Implementation split between Request and RequestEx.
+            The basic request type sent over Bot Framework Protocol 3 with Streaming Extensions transports,
+            equivalent to HTTP request messages.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Bot.Streaming.StreamingRequest.GET">
+            <summary>
+            Verb used by requests to get resources hosted on a remote server.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Bot.Streaming.StreamingRequest.POST">
+            <summary>
+            Verb used by requests posting data to a remote server.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Bot.Streaming.StreamingRequest.PUT">
+            <summary>
+            Verb used by requests putting updated data on a remote server.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Bot.Streaming.StreamingRequest.DELETE">
+            <summary>
+            Verb used by requests to delete data hosted on a remote server.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Bot.Streaming.StreamingRequest.Verb">
+            <summary>
+            Gets or sets the verb action this request will perform.
+            </summary>
+            <value>
+            The string representation of an HTTP verb.
+            </value>
+        </member>
+        <member name="P:Microsoft.Bot.Streaming.StreamingRequest.Path">
+            <summary>
+            Gets or sets the path this request will route to on the remote server.
+            </summary>
+            <value>
+            The string representation of the URL style path to request at the remote server.
+            </value>
+        </member>
+        <member name="P:Microsoft.Bot.Streaming.StreamingRequest.Streams">
+            <summary>
+            Gets or sets the collection of stream attachments included in this request.
+            </summary>
+            <value>
+            A <see cref="T:System.Collections.Generic.List`1"/> of <see cref="T:Microsoft.Bot.Streaming.Payloads.ResponseMessageStream"/> items associated with this request.
+            </value>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.StreamingRequest.CreateGet(System.String,System.Net.Http.HttpContent)">
+            <summary>
+            Creates a <see cref="T:Microsoft.Bot.Streaming.StreamingRequest"/> to get resources hosted on a remote server.
+            </summary>
+            <param name="path">Optional path where the resource can be found on the remote server.</param>
+            <param name="body">Optional body to send to the remote server.</param>
+            <returns>A <see cref="T:Microsoft.Bot.Streaming.StreamingRequest"/> with appropriate status code and body.</returns>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.StreamingRequest.CreatePost(System.String,System.Net.Http.HttpContent)">
+            <summary>
+            Creates a <see cref="T:Microsoft.Bot.Streaming.StreamingRequest"/> to post data to a remote server.
+            </summary>
+            <param name="path">Optional path where the resource can be found on the remote server.</param>
+            <param name="body">Optional body to send to the remote server.</param>
+            <returns>A <see cref="T:Microsoft.Bot.Streaming.StreamingRequest"/> with appropriate status code and body.</returns>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.StreamingRequest.CreatePut(System.String,System.Net.Http.HttpContent)">
+            <summary>
+            Creates a <see cref="T:Microsoft.Bot.Streaming.StreamingRequest"/> to put updated data on a remote server.
+            </summary>
+            <param name="path">Optional path where the resource can be found on the remote server.</param>
+            <param name="body">Optional body to send to the remote server.</param>
+            <returns>A <see cref="T:Microsoft.Bot.Streaming.StreamingRequest"/> with appropriate status code and body.</returns>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.StreamingRequest.CreateDelete(System.String,System.Net.Http.HttpContent)">
+            <summary>
+            Creates a <see cref="T:Microsoft.Bot.Streaming.StreamingRequest"/> to delete data hosted on a remote server.
+            </summary>
+            <param name="path">Optional path where the resource can be found on the remote server.</param>
+            <param name="body">Optional body to send to the remote server.</param>
+            <returns>A <see cref="T:Microsoft.Bot.Streaming.StreamingRequest"/> with appropriate status code and body.</returns>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.StreamingRequest.CreateRequest(System.String,System.String,System.Net.Http.HttpContent)">
+            <summary>
+            Creates a <see cref="T:Microsoft.Bot.Streaming.StreamingRequest"/> with the passed in method, path, and body.
+            </summary>
+            <param name="method">The HTTP verb to use for this request.</param>
+            <param name="path">Optional path where the resource can be found on the remote server.</param>
+            <param name="body">Optional body to send to the remote server.</param>
+            <returns>On success returns a <see cref="T:Microsoft.Bot.Streaming.StreamingRequest"/> with appropriate status code and body, otherwise returns null.</returns>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.StreamingRequest.AddStream(System.Net.Http.HttpContent)">
+            <summary>
+            Adds a new stream attachment to this <see cref="T:Microsoft.Bot.Streaming.StreamingRequest"/>.
+            </summary>
+            <param name="content">The <see cref="T:System.Net.Http.HttpContent"/> to include in the new stream attachment.</param>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.StreamingRequest.AddStream(System.Net.Http.HttpContent,System.Guid)">
+            <summary>
+            Adds a new stream attachment to this <see cref="T:Microsoft.Bot.Streaming.StreamingRequest"/>.
+            </summary>
+            <param name="content">The <see cref="T:System.Net.Http.HttpContent"/> to include in the new stream attachment.</param>
+            <param name="streamId">The id to assign to this stream attachment.</param>
+        </member>
+        <member name="T:Microsoft.Bot.Streaming.StreamingRequestExtensions">
+            <summary>
+            Helper methods for use with instances of the <see cref="T:Microsoft.Bot.Streaming.StreamingRequest"/> class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.StreamingRequestExtensions.SetBody(Microsoft.Bot.Streaming.StreamingRequest,System.String)">
+            <summary>
+            Adds a new stream to this <see cref="T:Microsoft.Bot.Streaming.StreamingRequest"/> containing the passed in body.
+            Noop on null body or null request.
+            </summary>
+            <param name="request">The <see cref="T:Microsoft.Bot.Streaming.StreamingRequest"/> instance to attach this body to.</param>
+            <param name="body">A string containing the data to insert into the stream.</param>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.StreamingRequestExtensions.SetBody(Microsoft.Bot.Streaming.StreamingRequest,System.Object)">
+            <summary>
+            Adds a new stream to this <see cref="T:Microsoft.Bot.Streaming.StreamingRequest"/> containing the passed in body.
+            Noop on null body or null request.
+            </summary>
+            <param name="request">The <see cref="T:Microsoft.Bot.Streaming.StreamingRequest"/> instance to attach this body to.</param>
+            <param name="body">An object containing the data to insert into the stream.</param>
+        </member>
+        <member name="T:Microsoft.Bot.Streaming.StreamingResponse">
+            <summary>
+            Implementation split between Response and ResponseEx.
+            The basic response type sent over Bot Framework Protocol 3 with Streaming Extensions transports,
+            equivalent to HTTP response messages.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Bot.Streaming.StreamingResponse.StatusCode">
+            <summary>
+            Gets or sets the numeric status code for the response.
+            </summary>
+            <value>
+            The numeric status code for the response.
+            </value>
+        </member>
+        <member name="P:Microsoft.Bot.Streaming.StreamingResponse.Streams">
+            <summary>
+            Gets or sets the collection of streams attached to this response.
+            </summary>
+            <value>
+            A <see cref="T:System.Collections.Generic.List`1"/> of type <see cref="T:Microsoft.Bot.Streaming.Payloads.ResponseMessageStream"/>.
+            </value>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.StreamingResponse.NotFound(System.Net.Http.HttpContent)">
+            <summary>
+            Creates a response indicating the requested resource was not found.
+            </summary>
+            <param name="body">An optional body containing additional information.</param>
+            <returns>A response with the appropriate statuscode and passed in body.</returns>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.StreamingResponse.Forbidden(System.Net.Http.HttpContent)">
+            <summary>
+            Creates a response indicating the requested resource is forbidden.
+            </summary>
+            <param name="body">An optional body containing additional information.</param>
+            <returns>A response with the appropriate statuscode and passed in body.</returns>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.StreamingResponse.OK(System.Net.Http.HttpContent)">
+            <summary>
+            Creates a response indicating the request was successful.
+            </summary>
+            <param name="body">An optional body containing additional information.</param>
+            <returns>A response with the appropriate statuscode and passed in body.</returns>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.StreamingResponse.InternalServerError(System.Net.Http.HttpContent)">
+            <summary>
+            Creates a response indicating the server encountered an error while processing the request.
+            </summary>
+            <param name="body">An optional body containing additional information.</param>
+            <returns>A response with the appropriate statuscode and passed in body.</returns>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.StreamingResponse.CreateResponse(System.Net.HttpStatusCode,System.Net.Http.HttpContent)">
+            <summary>
+            Creates a response using the passed in statusCode and optional body.
+            </summary>
+            <param name="statusCode">The <see cref="T:System.Net.HttpStatusCode"/> to set on the <see cref="T:Microsoft.Bot.Streaming.StreamingResponse"/>.</param>
+            <param name="body">An optional body containing additional information.</param>
+            <returns>A response with the appropriate statuscode and passed in body.</returns>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.StreamingResponse.AddStream(System.Net.Http.HttpContent)">
+            <summary>
+            Adds a new stream to the passed in <see cref="T:Microsoft.Bot.Streaming.StreamingResponse"/> containing the passed in content.
+            Throws <see cref="T:System.ArgumentNullException"/> if content is null.
+            </summary>
+            <param name="content">An <see cref="T:System.Net.Http.HttpContent"/> instance containing the data to insert into the stream.</param>
+        </member>
+        <member name="T:Microsoft.Bot.Streaming.StreamingResponseExtensions">
+            <summary>
+            Extends the <see cref="T:Microsoft.Bot.Streaming.StreamingResponse"/> class with additional methods.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.StreamingResponseExtensions.SetBody(Microsoft.Bot.Streaming.StreamingResponse,System.String)">
+            <summary>
+            Adds a new stream to this <see cref="T:Microsoft.Bot.Streaming.StreamingResponse"/> containing the passed in body.
+            Noop on empty body or null response.
+            </summary>
+            <param name="response">The <see cref="T:Microsoft.Bot.Streaming.StreamingResponse"/> instance to attach this body to.</param>
+            <param name="body">A string containing the data to insert into the stream.</param>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.StreamingResponseExtensions.SetBody(Microsoft.Bot.Streaming.StreamingResponse,System.Object)">
+            <summary>
+            Adds a new stream to this <see cref="T:Microsoft.Bot.Streaming.StreamingResponse"/> containing the passed in body.
+            Noop on null body or null response.
+            </summary>
+            <param name="response">The <see cref="T:Microsoft.Bot.Streaming.StreamingResponse"/> instance to attach this body to.</param>
+            <param name="body">An object containing the data to insert into the stream.</param>
+        </member>
+        <member name="T:Microsoft.Bot.Streaming.Transport.DisconnectedEventArgs">
+            <summary>
+            Arguments to be included when disconnection events are fired.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Bot.Streaming.Transport.DisconnectedEventArgs.Empty">
+            <summary>
+            Gets or sets an empty set of arguments.
+            </summary>
+            <value>
+            A new, empty, set of <see cref="T:Microsoft.Bot.Streaming.Transport.DisconnectedEventArgs"/>.
+            </value>
+        </member>
+        <member name="P:Microsoft.Bot.Streaming.Transport.DisconnectedEventArgs.Reason">
+            <summary>
+            Gets or sets the reason field of the arguments.
+            </summary>
+            <value>
+            The reason the disconnection event fired, in plain text.
+            </value>
+        </member>
+        <member name="T:Microsoft.Bot.Streaming.Transport.DisconnectedEventHandler">
+            <summary>
+            Delegate used to setup actions to be taken when disconnection events are triggered.
+            </summary>
+            <param name="sender">The source of the disconnection event.</param>
+            <param name="e">The arguments specified by the disconnection event.</param>
+        </member>
+        <member name="T:Microsoft.Bot.Streaming.Transport.IStreamingTransportClient">
+            <summary>
+            Implemented by clients compatible with the Bot Framework Protocol 3 with Streaming Extensions.
+            </summary>
+        </member>
+        <member name="E:Microsoft.Bot.Streaming.Transport.IStreamingTransportClient.Disconnected">
+            <summary>
+            An event used to signal when the underlying connection has disconnected.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Bot.Streaming.Transport.IStreamingTransportClient.IsConnected">
+            <summary>
+            Gets a value indicating whether this client is currently connected.
+            </summary>
+            <value>
+            True if this client is currently connected, otherwise false.
+            </value>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Transport.IStreamingTransportClient.ConnectAsync">
+            <summary>
+            The task used to establish a connection for this client.
+            </summary>
+            <returns>A <see cref="T:System.Threading.Tasks.Task"/> representing the asynchronous operation.</returns>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Transport.IStreamingTransportClient.ConnectAsync(System.Collections.Generic.IDictionary{System.String,System.String})">
+            <summary>
+            Establish a connection passing along additional headers.
+            </summary>
+            <param name="requestHeaders">Dictionary of header name and header value to be passed during connection. Generally, you will need channelID and Authorization.</param>
+            <returns>A <see cref="T:System.Threading.Tasks.Task"/> representing the asynchronous operation.</returns>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Transport.IStreamingTransportClient.SendAsync(Microsoft.Bot.Streaming.StreamingRequest,System.Threading.CancellationToken)">
+            <summary>
+            Task used to send data over this client connection.
+            </summary>
+            <param name="message">The <see cref="T:Microsoft.Bot.Streaming.StreamingRequest"/> to send.</param>
+            <param name="cancellationToken">An optional <see cref="T:System.Threading.CancellationToken"/> used to signal this operation should be cancelled.</param>
+            <returns>A <see cref="T:System.Threading.Tasks.Task"/> of type <see cref="T:Microsoft.Bot.Streaming.ReceiveResponse"/> handling the send operation.</returns>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Transport.IStreamingTransportClient.Disconnect">
+            <summary>
+            Method used to disconnect this client.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Bot.Streaming.Transport.IStreamingTransportServer">
+            <summary>
+            Implemented by servers compatible with the Bot Framework Protocol 3 with Streaming Extensions.
+            </summary>
+        </member>
+        <member name="E:Microsoft.Bot.Streaming.Transport.IStreamingTransportServer.Disconnected">
+            <summary>
+            An event used to signal when the underlying connection has disconnected.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Transport.IStreamingTransportServer.StartAsync">
+            <summary>
+            Used to establish the connection used by this server and begin listening for incoming messages.
+            </summary>
+            <returns>A <see cref="T:System.Threading.Tasks.Task"/> to handle the server listen operation.</returns>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Transport.IStreamingTransportServer.SendAsync(Microsoft.Bot.Streaming.StreamingRequest,System.Threading.CancellationToken)">
+            <summary>
+            Task used to send data over this server connection.
+            </summary>
+            <param name="request">The <see cref="T:Microsoft.Bot.Streaming.StreamingRequest"/> to send.</param>
+            <param name="cancellationToken">A <see cref="T:System.Threading.CancellationToken"/> used to signal this operation should be cancelled.</param>
+            <returns>A <see cref="T:System.Threading.Tasks.Task"/> of type <see cref="T:Microsoft.Bot.Streaming.ReceiveResponse"/> handling the send operation.</returns>
+        </member>
+        <member name="T:Microsoft.Bot.Streaming.Transport.ITransport">
+            <summary>
+            A transport format used when writing data to the wire.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Bot.Streaming.Transport.ITransport.IsConnected">
+            <summary>
+             Gets a value indicating whether the transport is connected.
+            </summary>
+            <value>
+            A value indicating whether the transport is connected.
+            </value>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Transport.ITransport.Close">
+            <summary>
+            Closes the transport.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Bot.Streaming.Transport.ITransportReceiver">
+            <summary>
+            Used to pull raw data from the wire, via a given transport.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Transport.ITransportReceiver.ReceiveAsync(System.Byte[],System.Int32,System.Int32)">
+            <summary>
+            Called to receive data from the wire transport.
+            </summary>
+            <param name="buffer">A buffer to receive data into.</param>
+            <param name="offset">The location within the buffer to begin writing.</param>
+            <param name="count">The maximum amount of bytes to write to the buffer.</param>
+            <returns>The number of bytes written to the buffer.</returns>
+        </member>
+        <member name="T:Microsoft.Bot.Streaming.Transport.ITransportSender">
+            <summary>
+            Used to write raw data to the wire, via a given transport.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Transport.ITransportSender.SendAsync(System.Byte[],System.Int32,System.Int32)">
+            <summary>
+            Called to send data to the wire transport.
+            </summary>
+            <param name="buffer">A buffer of data to write to the wire transport.</param>
+            <param name="offset">The location within the buffer to begin reading.</param>
+            <param name="count">The amount of bytes to write to the wire transport.</param>
+            <returns>The number of bytes written to the wire transport.</returns>
+        </member>
+        <member name="T:Microsoft.Bot.Streaming.Transport.NamedPipes.NamedPipeClient">
+            <summary>
+            An implementation of <see cref="T:Microsoft.Bot.Streaming.Transport.IStreamingTransportClient"/> for use with Named Pipes.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Transport.NamedPipes.NamedPipeClient.#ctor(System.String,Microsoft.Bot.Streaming.RequestHandler,System.Boolean)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Bot.Streaming.Transport.NamedPipes.NamedPipeClient"/> class.
+            Throws <see cref="T:System.ArgumentNullException"/> if baseName is null, empty, or whitespace.
+            </summary>
+            <param name="baseName">The named pipe to connect to.</param>
+            <param name="requestHandler">Optional <see cref="T:Microsoft.Bot.Streaming.RequestHandler"/> to process incoming messages received by this client.</param>
+            <param name="autoReconnect">Optional setting to determine if the client sould attempt to reconnect
+            automatically on disconnection events. Defaults to true.
+            </param>
+        </member>
+        <member name="E:Microsoft.Bot.Streaming.Transport.NamedPipes.NamedPipeClient.Disconnected">
+            <summary>
+            An event to be fired when the underlying transport is disconnected. Any application communicating with this client should subscribe to this event.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Bot.Streaming.Transport.NamedPipes.NamedPipeClient.IsConnected">
+            <summary>
+            Gets a value indicating whether or not this client is currently connected.
+            </summary>
+            <returns>
+            True if this client is connected and ready to send and receive messages, otherwise false.
+            </returns>
+            <value>
+            A boolean value indicating whether or not this client is currently connected.
+            </value>
+        </member>
+        <member name="P:Microsoft.Bot.Streaming.Transport.NamedPipes.NamedPipeClient.IncomingConnected">
+            <summary>
+            Gets a value indicating whether the NamedPipeClient has an incoming pipe connection.
+            </summary>
+            <value>
+            A boolean value indicating whether or not this client is currently connected to an incoming pipe.
+            </value>
+        </member>
+        <member name="P:Microsoft.Bot.Streaming.Transport.NamedPipes.NamedPipeClient.OutgoingConnected">
+            <summary>
+            Gets a value indicating whether the NamedPipeClient has an outgoing pipe connection.
+            </summary>
+            <value>
+            A boolean value indicating whether or not this client is currently connected to an outgoing pipe.
+            </value>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Transport.NamedPipes.NamedPipeClient.ConnectAsync">
+            <summary>
+            Establish a connection with no custom headers.
+            </summary>
+            <returns>A <see cref="T:System.Threading.Tasks.Task"/> that will not resolve until the client stops listening for incoming messages.</returns>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Transport.NamedPipes.NamedPipeClient.ConnectAsync(System.Collections.Generic.IDictionary{System.String,System.String})">
+            <summary>
+            Establish a connection with optional custom headers.
+            </summary>
+            <param name="requestHeaders">An optional <see cref="T:System.Collections.Generic.IDictionary`2"/> of string header names and string header values to include when sending the
+            initial request to establish this connection.
+            </param>
+            <returns>A <see cref="T:System.Threading.Tasks.Task"/> that will not resolve until the client stops listening for incoming messages.</returns>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Transport.NamedPipes.NamedPipeClient.SendAsync(Microsoft.Bot.Streaming.StreamingRequest,System.Threading.CancellationToken)">
+            <summary>
+            Task used to send data over this client connection.
+            Throws <see cref="T:System.InvalidOperationException"/> if called when the client is disconnected.
+            Throws <see cref="T:System.ArgumentNullException"/> if message is null.
+            </summary>
+            <param name="message">The <see cref="T:Microsoft.Bot.Streaming.StreamingRequest"/> to send.</param>
+            <param name="cancellationToken">An optional <see cref="T:System.Threading.CancellationToken"/> used to signal this operation should be cancelled.</param>
+            <returns>A <see cref="T:System.Threading.Tasks.Task"/> that will produce an instance of <see cref="T:Microsoft.Bot.Streaming.ReceiveResponse"/> on completion of the send operation.</returns>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Transport.NamedPipes.NamedPipeClient.Disconnect">
+            <summary>
+            Method used to disconnect this client.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Transport.NamedPipes.NamedPipeClient.Dispose">
+            <summary>
+            Disconnects the client and releases any related objects owned by the class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Transport.NamedPipes.NamedPipeClient.Dispose(System.Boolean)">
+            <summary>
+            Disposes objected used by the class.
+            </summary>
+            <param name="disposing">A Boolean that indicates whether the method call comes from a Dispose method (its value is true) or from a finalizer (its value is false).</param>
+            <remarks>
+            The disposing parameter should be false when called from a finalizer, and true when called from the IDisposable.Dispose method.
+            In other words, it is true when deterministically called and false when non-deterministically called.
+            </remarks>
+        </member>
+        <member name="T:Microsoft.Bot.Streaming.Transport.NamedPipes.NamedPipeServer">
+            <summary>
+            A server for use with the Bot Framework Protocol V3 with Streaming Extensions and an underlying Named Pipe transport.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Transport.NamedPipes.NamedPipeServer.#ctor(System.String,Microsoft.Bot.Streaming.RequestHandler,System.Boolean)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Bot.Streaming.Transport.NamedPipes.NamedPipeServer"/> class.
+            Throws <see cref="T:System.ArgumentNullException"/> on null arguments.
+            </summary>
+            <param name="baseName">The named pipe to connect to.</param>
+            <param name="requestHandler">A <see cref="T:Microsoft.Bot.Streaming.RequestHandler"/> to process incoming messages received by this server.</param>
+            <param name="autoReconnect">Optional setting to determine if the server sould attempt to reconnect
+            automatically on disconnection events. Defaults to true.
+            </param>
+        </member>
+        <member name="E:Microsoft.Bot.Streaming.Transport.NamedPipes.NamedPipeServer.Disconnected">
+            <summary>
+            An event to be fired when the underlying transport is disconnected. Any application communicating with this server should subscribe to this event.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Bot.Streaming.Transport.NamedPipes.NamedPipeServer.IsConnected">
+            <summary>
+            Gets a value indicating whether or not this server is currently connected.
+            </summary>
+            <returns>
+            True if this server is connected and ready to send and receive messages, otherwise false.
+            </returns>
+            <value>
+            A boolean value indicating whether or not this server is currently connected.
+            </value>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Transport.NamedPipes.NamedPipeServer.StartAsync">
+            <summary>
+            Used to establish the connection used by this server and begin listening for incoming messages.
+            </summary>
+            <returns>A <see cref="T:System.Threading.Tasks.Task"/> to handle the server listen operation. This task will not resolve as long as the server is running.</returns>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Transport.NamedPipes.NamedPipeServer.SendAsync(Microsoft.Bot.Streaming.StreamingRequest,System.Threading.CancellationToken)">
+            <summary>
+            Task used to send data over this server connection.
+            Throws <see cref="T:System.InvalidOperationException"/> if called when server is not connected.
+            Throws <see cref="T:System.ArgumentNullException"/> if request is null.
+            </summary>
+            <param name="request">The <see cref="T:Microsoft.Bot.Streaming.StreamingRequest"/> to send.</param>
+            <param name="cancellationToken">Optional <see cref="T:System.Threading.CancellationToken"/> used to signal this operation should be cancelled.</param>
+            <returns>A <see cref="T:System.Threading.Tasks.Task"/> of type <see cref="T:Microsoft.Bot.Streaming.ReceiveResponse"/> handling the send operation.</returns>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Transport.NamedPipes.NamedPipeServer.Disconnect">
+            <summary>
+            Disconnects the NamedPipeServer.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Transport.NamedPipes.NamedPipeServer.Dispose">
+            <summary>
+            Disposes the object and releases any related objects owned by the class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Transport.NamedPipes.NamedPipeServer.Dispose(System.Boolean)">
+            <summary>
+            Disposes objected used by the class.
+            </summary>
+            <param name="disposing">A Boolean that indicates whether the method call comes from a Dispose method (its value is true) or from a finalizer (its value is false).</param>
+            <remarks>
+            The disposing parameter should be false when called from a finalizer, and true when called from the IDisposable.Dispose method.
+            In other words, it is true when deterministically called and false when non-deterministically called.
+            </remarks>
+        </member>
+        <member name="T:Microsoft.Bot.Streaming.Transport.NamedPipes.NamedPipeTransport">
+            <summary>
+            For use when the wire transport is a Named Pipe.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Bot.Streaming.Transport.NamedPipes.NamedPipeTransport.ServerIncomingPath">
+            <summary>
+            The suffix of the Named Pipe used for incoming data.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Bot.Streaming.Transport.NamedPipes.NamedPipeTransport.ServerOutgoingPath">
+            <summary>
+            The suffix of the Named pipe used for outgoing data.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Transport.NamedPipes.NamedPipeTransport.#ctor(System.IO.Pipes.PipeStream)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Bot.Streaming.Transport.NamedPipes.NamedPipeTransport"/> class.
+            </summary>
+            <param name="stream">The data stream over the Named Pipe.</param>
+        </member>
+        <member name="P:Microsoft.Bot.Streaming.Transport.NamedPipes.NamedPipeTransport.IsConnected">
+            <inheritdoc/>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Transport.NamedPipes.NamedPipeTransport.Close">
+            <inheritdoc/>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Transport.NamedPipes.NamedPipeTransport.Dispose">
+            <summary>
+            Disconnects the client and releases any related objects owned by the class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Transport.NamedPipes.NamedPipeTransport.ReceiveAsync(System.Byte[],System.Int32,System.Int32)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Transport.NamedPipes.NamedPipeTransport.SendAsync(System.Byte[],System.Int32,System.Int32)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Transport.NamedPipes.NamedPipeTransport.Dispose(System.Boolean)">
+            <summary>
+            Disposes objected used by the class.
+            </summary>
+            <param name="disposing">A Boolean that indicates whether the method call comes from a Dispose method (its value is true) or from a finalizer (its value is false).</param>
+            <remarks>
+            The disposing parameter should be false when called from a finalizer, and true when called from the IDisposable.Dispose method.
+            In other words, it is true when deterministically called and false when non-deterministically called.
+            </remarks>
+        </member>
+        <member name="T:Microsoft.Bot.Streaming.Transport.TransportConstants">
+            <summary>
+            A collection of constants useful when working with <see cref="T:Microsoft.Bot.Streaming.Payloads.Header"/>s.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Bot.Streaming.Transport.TransportConstants.MaxPayloadLength">
+            <summary>
+            The maximum length of a single payload segment.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Bot.Streaming.Transport.TransportConstants.MaxHeaderLength">
+            <summary>
+            The maximum length of a <see cref="T:Microsoft.Bot.Streaming.Payloads.Header"/>.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Bot.Streaming.Transport.TransportConstants.MaxLength">
+            <summary>
+            The maximum possible length of a data buffer containing a <see cref="T:Microsoft.Bot.Streaming.Payloads.PayloadStream"/>.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Bot.Streaming.Transport.TransportConstants.MinLength">
+            <summary>
+            The minimum possible length of a data buffer containing a <see cref="T:Microsoft.Bot.Streaming.Payloads.PayloadStream"/>.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Bot.Streaming.Transport.WebSockets.WebSocketClient">
+            <summary>
+            A client for use with the Bot Framework Protocol V3 with Streaming Extensions and an underlying WebSocket transport.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Transport.WebSockets.WebSocketClient.#ctor(System.String,Microsoft.Bot.Streaming.RequestHandler,System.Object)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Bot.Streaming.Transport.WebSockets.WebSocketClient"/> class.
+            Throws <see cref="T:System.ArgumentNullException"/> if URL is null, empty, or whitespace.
+            </summary>
+            <param name="url">The URL of the remote server to connect to.</param>
+            <param name="requestHandler">Optional <see cref="T:Microsoft.Bot.Streaming.RequestHandler"/> to process incoming messages received by this server.</param>
+            <param name="handlerContext">Optional context for the <see cref="T:Microsoft.Bot.Streaming.RequestHandler"/> to operate within.</param>
+        </member>
+        <member name="E:Microsoft.Bot.Streaming.Transport.WebSockets.WebSocketClient.Disconnected">
+            <summary>
+            An event to be fired when the underlying transport is disconnected. Any application communicating with this client should subscribe to this event.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Bot.Streaming.Transport.WebSockets.WebSocketClient.LastMessageSendTime">
+            <summary>
+            Gets the UTC time of the last send on this client. Made available for use when cleaning up idle clients.
+            </summary>
+            <value>
+            A <see cref="T:System.DateTime"/> representing the UTC time of the last send on this client.
+            </value>
+        </member>
+        <member name="P:Microsoft.Bot.Streaming.Transport.WebSockets.WebSocketClient.IsConnected">
+            <summary>
+            Gets a value indicating whether or not this client is currently connected.
+            </summary>
+            <returns>
+            True if this client is connected and ready to send and receive messages, otherwise false.
+            </returns>
+            <value>
+            A boolean value indicating whether or not this client is currently connected.
+            </value>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Transport.WebSockets.WebSocketClient.ConnectAsync">
+            <summary>
+            Establish a connection with no custom headers.
+            </summary>
+            <returns>A <see cref="T:System.Threading.Tasks.Task"/> that will not resolve until the client stops listening for incoming messages.</returns>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Transport.WebSockets.WebSocketClient.ConnectAsync(System.Collections.Generic.IDictionary{System.String,System.String})">
+            <summary>
+            Establish a connection with optional custom headers.
+            </summary>
+            <param name="requestHeaders">An optional <see cref="T:System.Collections.Generic.IDictionary`2"/> of string header names and string header values to include when sending the
+            initial request to establish this connection.
+            </param>
+            <returns>A <see cref="T:System.Threading.Tasks.Task"/> that will not resolve until the client stops listening for incoming messages.</returns>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Transport.WebSockets.WebSocketClient.ConnectAsyncEx(System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)">
+            <summary>
+            Establish a connection with optional custom headers.
+            </summary>
+            <param name="requestHeaders">An optional <see cref="T:System.Collections.Generic.IDictionary`2"/> of string header names and string header values to include when sending the
+            initial request to establish this connection.
+            </param>
+            <param name="cancellationToken">An optional <see cref="T:System.Threading.CancellationToken"/> used to signal this operation should be cancelled.</param>
+            <returns>A <see cref="T:System.Threading.Tasks.Task"/> that will not resolve until the client stops listening for incoming messages.</returns>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Transport.WebSockets.WebSocketClient.SendAsync(Microsoft.Bot.Streaming.StreamingRequest,System.Threading.CancellationToken)">
+            <summary>
+            Task used to send data over this client connection.
+            Throws <see cref="T:System.InvalidOperationException"/> if called when the client is disconnected.
+            Throws <see cref="T:System.ArgumentNullException"/> if message is null.
+            </summary>
+            <param name="message">The <see cref="T:Microsoft.Bot.Streaming.StreamingRequest"/> to send.</param>
+            <param name="cancellationToken">An optional <see cref="T:System.Threading.CancellationToken"/> used to signal this operation should be cancelled.</param>
+            <returns>A <see cref="T:System.Threading.Tasks.Task"/> that will produce an instance of <see cref="T:Microsoft.Bot.Streaming.ReceiveResponse"/> on completion of the send operation.</returns>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Transport.WebSockets.WebSocketClient.Disconnect">
+            <summary>
+            Method used to disconnect this client.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Transport.WebSockets.WebSocketClient.Dispose">
+            <summary>
+            Disconnects the client and releases any related objects owned by the class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Transport.WebSockets.WebSocketClient.ConnectInternalAsync(System.Net.WebSockets.WebSocket)">
+            <summary>
+            Establish a connection with injected web socket for more control in tests.
+            </summary>
+            <param name="socket">A <see cref="T:System.Net.WebSockets.WebSocket"/> for the client which msut already be .</param>
+            <returns>A <see cref="T:System.Threading.Tasks.Task"/> that will not resolve until the client stops listening for incoming messages.</returns>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Transport.WebSockets.WebSocketClient.Dispose(System.Boolean)">
+            <summary>
+            Disposes objected used by the class.
+            </summary>
+            <param name="disposing">A Boolean that indicates whether the method call comes from a Dispose method (its value is true) or from a finalizer (its value is false).</param>
+            <remarks>
+            The disposing parameter should be false when called from a finalizer, and true when called from the IDisposable.Dispose method.
+            In other words, it is true when deterministically called and false when non-deterministically called.
+            </remarks>
+        </member>
+        <member name="T:Microsoft.Bot.Streaming.Transport.WebSockets.WebSocketServer">
+            <summary>
+            A server for use with the Bot Framework Protocol V3 with Streaming Extensions and an underlying WebSocket transport.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Transport.WebSockets.WebSocketServer.#ctor(System.Net.WebSockets.WebSocket,Microsoft.Bot.Streaming.RequestHandler)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Bot.Streaming.Transport.WebSockets.WebSocketServer"/> class.
+            Throws <see cref="T:System.ArgumentNullException"/> on null arguments.
+            </summary>
+            <param name="socket">The <see cref="T:System.Net.WebSockets.WebSocket"/> of the underlying connection for this server to be built on top of.</param>
+            <param name="requestHandler">A <see cref="T:Microsoft.Bot.Streaming.RequestHandler"/> to process incoming messages received by this server.</param>
+        </member>
+        <member name="E:Microsoft.Bot.Streaming.Transport.WebSockets.WebSocketServer.Disconnected">
+            <summary>
+            An event to be fired when the underlying transport is disconnected. Any application communicating with this server should subscribe to this event.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Bot.Streaming.Transport.WebSockets.WebSocketServer.IsConnected">
+            <summary>
+            Gets a value indicating whether or not this server is currently connected.
+            </summary>
+            <returns>
+            True if this server is connected and ready to send and receive messages, otherwise false.
+            </returns>
+            <value>
+            A boolean value indicating whether or not this server is currently connected.
+            </value>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Transport.WebSockets.WebSocketServer.StartAsync">
+            <summary>
+            Used to establish the connection used by this server and begin listening for incoming messages.
+            </summary>
+            <returns>A <see cref="T:System.Threading.Tasks.Task"/> to handle the server listen operation. This task will not resolve as long as the server is running.</returns>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Transport.WebSockets.WebSocketServer.SendAsync(Microsoft.Bot.Streaming.StreamingRequest,System.Threading.CancellationToken)">
+            <summary>
+            Task used to send data over this server connection.
+            Throws <see cref="T:System.InvalidOperationException"/> if called when server is not connected.
+            Throws <see cref="T:System.ArgumentNullException"/> if request is null.
+            </summary>
+            <param name="request">The <see cref="T:Microsoft.Bot.Streaming.StreamingRequest"/> to send.</param>
+            <param name="cancellationToken">Optional <see cref="T:System.Threading.CancellationToken"/> used to signal this operation should be cancelled.</param>
+            <returns>A <see cref="T:System.Threading.Tasks.Task"/> of type <see cref="T:Microsoft.Bot.Streaming.ReceiveResponse"/> handling the send operation.</returns>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Transport.WebSockets.WebSocketServer.Disconnect">
+            <summary>
+            Disconnects the WebSocketServer.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Transport.WebSockets.WebSocketServer.Dispose">
+            <summary>
+            Disposes the object and releases any related objects owned by the class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Transport.WebSockets.WebSocketServer.Dispose(System.Boolean)">
+            <summary>
+            Disposes objected used by the class.
+            </summary>
+            <param name="disposing">A Boolean that indicates whether the method call comes from a Dispose method (its value is true) or from a finalizer (its value is false).</param>
+            <remarks>
+            The disposing parameter should be false when called from a finalizer, and true when called from the IDisposable.Dispose method.
+            In other words, it is true when deterministically called and false when non-deterministically called.
+            </remarks>
+        </member>
+        <member name="T:Microsoft.Bot.Streaming.Transport.WebSockets.WebSocketTransport">
+            <summary>
+            An implementation of <see cref="T:Microsoft.Bot.Streaming.Transport.ITransportSender"/> and <see cref="T:Microsoft.Bot.Streaming.Transport.ITransportReceiver"/> for use with a WebSocket transport.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Transport.WebSockets.WebSocketTransport.#ctor(System.Net.WebSockets.WebSocket)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Bot.Streaming.Transport.WebSockets.WebSocketTransport"/> class.
+            </summary>
+            <param name="socket">The WebSocket to bind this transport to.</param>
+        </member>
+        <member name="P:Microsoft.Bot.Streaming.Transport.WebSockets.WebSocketTransport.IsConnected">
+            <inheritdoc/>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Transport.WebSockets.WebSocketTransport.Close">
+            <inheritdoc/>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Transport.WebSockets.WebSocketTransport.Dispose">
+            <summary>
+            Disposes the object and releases any related objects owned by the class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Transport.WebSockets.WebSocketTransport.ReceiveAsync(System.Byte[],System.Int32,System.Int32)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Transport.WebSockets.WebSocketTransport.SendAsync(System.Byte[],System.Int32,System.Int32)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Transport.WebSockets.WebSocketTransport.Dispose(System.Boolean)">
+            <summary>
+            Disposes objected used by the class.
+            </summary>
+            <param name="disposing">A Boolean that indicates whether the method call comes from a Dispose method (its value is true) or from a finalizer (its value is false).</param>
+            <remarks>
+            The disposing parameter should be false when called from a finalizer, and true when called from the IDisposable.Dispose method.
+            In other words, it is true when deterministically called and false when non-deterministically called.
+            </remarks>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Utilities.Background.Run(System.Func{System.Threading.Tasks.Task},System.Collections.Generic.IDictionary{System.String,System.Object})">
+            <summary>
+            Register background task with ASP.Net hosting environment and trace exceptions
+            Falls back to Thread pool if not running under ASP.Net.
+            </summary>
+            <param name="task">Background task to execute.</param>
+            <param name="properties">Name value pairs to trace if an exception is thrown.</param>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Utilities.Background.Run(System.Func{System.Threading.CancellationToken,System.Threading.Tasks.Task},System.Collections.Generic.IDictionary{System.String,System.Object})">
+            <summary>
+            Register background task with ASP.Net hosting environment and trace exceptions
+            Falls back to Thread pool if not running under ASP.Net.
+            </summary>
+            <param name="task">background task to execute.</param>
+            <param name="properties">name value pairs to trace if an exception is thrown.</param>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Utilities.Background.RunForever(System.Func{System.Threading.CancellationToken,System.TimeSpan},System.TimeSpan,System.String)">
+            <summary>
+            Register periodic background task with ASP.Net hosting environment and trace exceptions.
+            </summary>
+            <param name="task">background task to execute.</param>
+            <param name="spanDelay">the initial delay.</param>
+            <param name="eventName">the event name to log individual execution failures.</param>
+        </member>
+        <member name="M:Microsoft.Bot.Streaming.Utilities.Background.RunForever(System.Func{System.Threading.CancellationToken,System.Threading.Tasks.Task{System.TimeSpan}},System.TimeSpan,System.String)">
+            <summary>
+            Register periodic background task with ASP.Net hosting environment and trace exceptions.
+            </summary>
+            <param name="task">Background task to execute.</param>
+            <param name="spanDelay">The initial delay.</param>
+            <param name="eventName">The event name to log individual execution failures.</param>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,303 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Microsoft.Bot.Connector.Streaming</name>
+    </assembly>
+    <members>
+        <member name="T:Microsoft.Bot.Connector.Streaming.Application.LegacyStreamingConnection">
+            <summary>
+            The <see cref="T:Microsoft.Bot.Connector.Streaming.Application.StreamingConnection"/> to be used by legacy bots.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Bot.Connector.Streaming.Application.LegacyStreamingConnection.#ctor(System.Net.WebSockets.WebSocket,Microsoft.Extensions.Logging.ILogger,Microsoft.Bot.Streaming.Transport.DisconnectedEventHandler)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Bot.Connector.Streaming.Application.LegacyStreamingConnection"/> class that uses web sockets.
+            </summary>
+            <param name="socket">The <see cref="T:System.Net.WebSockets.WebSocket"/> instance to use for legacy streaming connection.</param>
+            <param name="logger">Logger implementation for tracing and debugging information.</param>
+            <param name="onServerDisconnect">Additional handling code to be run when the transport server is disconnected.</param>
+        </member>
+        <member name="M:Microsoft.Bot.Connector.Streaming.Application.LegacyStreamingConnection.#ctor(System.String,Microsoft.Extensions.Logging.ILogger,Microsoft.Bot.Streaming.Transport.DisconnectedEventHandler)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Bot.Connector.Streaming.Application.LegacyStreamingConnection"/> class that uses named pipes.
+            </summary>
+            <param name="pipeName">The name of the named pipe.</param>
+            <param name="logger">Logger implementation for tracing and debugging information.</param>
+            <param name="onServerDisconnect">Additional handling code to be run when the transport server is disconnected.</param>
+        </member>
+        <member name="M:Microsoft.Bot.Connector.Streaming.Application.LegacyStreamingConnection.ListenAsync(Microsoft.Bot.Streaming.RequestHandler,System.Threading.CancellationToken)">
+            <inheritdoc />
+        </member>
+        <member name="M:Microsoft.Bot.Connector.Streaming.Application.LegacyStreamingConnection.SendStreamingRequestAsync(Microsoft.Bot.Streaming.StreamingRequest,System.Threading.CancellationToken)">
+            <inheritdoc />
+        </member>
+        <member name="M:Microsoft.Bot.Connector.Streaming.Application.LegacyStreamingConnection.Dispose(System.Boolean)">
+            <inheritdoc />
+        </member>
+        <member name="T:Microsoft.Bot.Connector.Streaming.Application.NamedPipeClient">
+            <summary>
+            Named pipe client.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Bot.Connector.Streaming.Application.NamedPipeClient.#ctor(System.String,System.String,Microsoft.Bot.Streaming.RequestHandler,System.Nullable{System.TimeSpan},System.Nullable{System.TimeSpan},Microsoft.Extensions.Logging.ILogger)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Bot.Connector.Streaming.Application.NamedPipeClient"/> class.
+            </summary>
+            <param name="pipeName">The name of the named pipe that will initiate connection to a server.</param>
+            <param name="url">The server URL to connect to.</param>
+            <param name="requestHandler">Handler that will receive incoming requests to this client instance.</param>
+            <param name="closeTimeOut">Optional time out for closing the client connection.</param>
+            <param name="keepAlive">Optional spacing between keep alives for proactive disconnection detection. If null is provided, no keep alives will be sent.</param>
+            <param name="logger"><see cref="T:Microsoft.Extensions.Logging.ILogger"/> for the client.</param>
+        </member>
+        <member name="T:Microsoft.Bot.Connector.Streaming.Application.NamedPipeStreamingConnection">
+            <summary>
+            Default implementation of <see cref="T:Microsoft.Bot.Connector.Streaming.Application.StreamingConnection"/> for NamedPipe transport.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Bot.Connector.Streaming.Application.NamedPipeStreamingConnection.#ctor(System.String,Microsoft.Extensions.Logging.ILogger)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Bot.Connector.Streaming.Application.NamedPipeStreamingConnection"/> class.
+            </summary>
+            <param name="pipeName">The name of the named pipe.</param>
+            <param name="logger"><see cref="T:Microsoft.Extensions.Logging.ILogger"/> for the connection.</param>
+        </member>
+        <member name="T:Microsoft.Bot.Connector.Streaming.Application.StreamingConnection">
+            <summary>
+            A streaming based connection that can listen for incoming requests and send them to a <see cref="T:Microsoft.Bot.Streaming.RequestHandler"/>, 
+            and can also send requests to the other end of the connection.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Bot.Connector.Streaming.Application.StreamingConnection.#ctor(Microsoft.Extensions.Logging.ILogger)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Bot.Connector.Streaming.Application.StreamingConnection"/> class.
+            </summary>
+            <param name="logger"><see cref="T:Microsoft.Extensions.Logging.ILogger"/> for the connection.</param>
+        </member>
+        <member name="P:Microsoft.Bot.Connector.Streaming.Application.StreamingConnection.Logger">
+            <summary>
+            Gets the <see cref="T:Microsoft.Extensions.Logging.ILogger"/> instance for the streaming connection.
+            </summary>
+            <value>A <see cref="T:Microsoft.Extensions.Logging.ILogger"/> for the streaming connection.</value>
+        </member>
+        <member name="M:Microsoft.Bot.Connector.Streaming.Application.StreamingConnection.SendStreamingRequestAsync(Microsoft.Bot.Streaming.StreamingRequest,System.Threading.CancellationToken)">
+            <summary>
+            Sends a streaming request through the connection.
+            </summary>
+            <param name="request"><see cref="T:Microsoft.Bot.Streaming.StreamingRequest"/> to be sent.</param>
+            <param name="cancellationToken"><see cref="T:System.Threading.CancellationToken"/> to cancel the send process.</param>
+            <returns>The <see cref="T:Microsoft.Bot.Streaming.ReceiveResponse"/> returned from the client.</returns>
+        </member>
+        <member name="M:Microsoft.Bot.Connector.Streaming.Application.StreamingConnection.ListenAsync(Microsoft.Bot.Streaming.RequestHandler,System.Threading.CancellationToken)">
+            <summary>
+            Opens the <see cref="T:Microsoft.Bot.Connector.Streaming.Application.StreamingConnection"/> and listens for incoming requests, which will
+            be assembled and sent to the provided <see cref="T:Microsoft.Bot.Streaming.RequestHandler"/>.
+            </summary>
+            <param name="requestHandler"><see cref="T:Microsoft.Bot.Streaming.RequestHandler"/> to which incoming requests will be sent.</param>
+            <param name="cancellationToken"><see cref="T:System.Threading.CancellationToken"/> that signals the need to stop the connection. 
+            Once the token is cancelled, the connection will be gracefully shut down, finishing pending sends and receives.</param>
+            <returns>A <see cref="T:System.Threading.Tasks.Task"/> representing the asynchronous operation.</returns>
+        </member>
+        <member name="M:Microsoft.Bot.Connector.Streaming.Application.StreamingConnection.Dispose">
+            <inheritdoc />
+        </member>
+        <member name="M:Microsoft.Bot.Connector.Streaming.Application.StreamingConnection.Dispose(System.Boolean)">
+            <summary>
+            Disposes managed and unmanaged resources of the underlying <see cref="T:Microsoft.Bot.Connector.Streaming.Application.StreamingConnection"/>.
+            </summary>
+            <param name="disposing">Whether we are disposing managed resources.</param>
+        </member>
+        <member name="T:Microsoft.Bot.Connector.Streaming.Application.StreamingTransportClient">
+            <inheritdoc />
+        </member>
+        <member name="M:Microsoft.Bot.Connector.Streaming.Application.StreamingTransportClient.#ctor(System.String,Microsoft.Bot.Streaming.RequestHandler,System.Nullable{System.TimeSpan},System.Nullable{System.TimeSpan},Microsoft.Extensions.Logging.ILogger)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Bot.Connector.Streaming.Application.StreamingTransportClient"/> class.
+            </summary>
+            <param name="url">The server URL to connect to.</param>
+            <param name="requestHandler">Handler that will receive incoming requests to this client instance.</param>
+            <param name="closeTimeOut">Optional time out for closing the client connection.</param>
+            <param name="keepAlive">Optional spacing between keep alives for proactive disconnection detection. If null is provided, no keep alives will be sent.</param>
+            <param name="logger"><see cref="T:Microsoft.Extensions.Logging.ILogger"/> for the client.</param>
+        </member>
+        <member name="E:Microsoft.Bot.Connector.Streaming.Application.StreamingTransportClient.Disconnected">
+            <inheritdoc />
+        </member>
+        <member name="P:Microsoft.Bot.Connector.Streaming.Application.StreamingTransportClient.IsConnected">
+            <inheritdoc />
+        </member>
+        <member name="P:Microsoft.Bot.Connector.Streaming.Application.StreamingTransportClient.Logger">
+            <summary>
+            Gets the <see cref="T:Microsoft.Extensions.Logging.ILogger"/> instance for the streaming client.
+            </summary>
+            <value>A <see cref="T:Microsoft.Extensions.Logging.ILogger"/> for the streaming client.</value>
+        </member>
+        <member name="M:Microsoft.Bot.Connector.Streaming.Application.StreamingTransportClient.ConnectAsync">
+            <inheritdoc />
+        </member>
+        <member name="M:Microsoft.Bot.Connector.Streaming.Application.StreamingTransportClient.ConnectAsync(System.Collections.Generic.IDictionary{System.String,System.String})">
+            <inheritdoc />
+        </member>
+        <member name="M:Microsoft.Bot.Connector.Streaming.Application.StreamingTransportClient.ConnectAsync(System.Collections.Generic.IDictionary{System.String,System.String},System.Threading.CancellationToken)">
+            <summary>
+            Establish a client connection passing along additional headers, and a cancellation token.
+            </summary>
+            <param name="requestHeaders">Dictionary of header name and header value to be passed during connection. Generally, you will need channelID and Authorization.</param>
+            <param name="cancellationToken"><see cref="T:System.Threading.CancellationToken"/> for the client connection.</param>
+            <returns>A <see cref="T:System.Threading.Tasks.Task"/> representing the asynchronous operation.</returns>
+        </member>
+        <member name="M:Microsoft.Bot.Connector.Streaming.Application.StreamingTransportClient.SendAsync(Microsoft.Bot.Streaming.StreamingRequest,System.Threading.CancellationToken)">
+            <inheritdoc />
+        </member>
+        <member name="M:Microsoft.Bot.Connector.Streaming.Application.StreamingTransportClient.Disconnect">
+            <inheritdoc />
+        </member>
+        <member name="M:Microsoft.Bot.Connector.Streaming.Application.StreamingTransportClient.DisconnectAsync">
+            <summary>
+            Disconnects.
+            </summary>
+            <returns>A <see cref="T:System.Threading.Tasks.Task"/> representing the asynchronous operation.</returns>
+        </member>
+        <member name="M:Microsoft.Bot.Connector.Streaming.Application.StreamingTransportClient.Dispose">
+            <inheritdoc />
+        </member>
+        <member name="M:Microsoft.Bot.Connector.Streaming.Application.StreamingTransportClient.Dispose(System.Boolean)">
+            <summary>
+            Disposes objects used by the <see cref="T:Microsoft.Bot.Connector.Streaming.Application.StreamingTransportClient"/>.
+            </summary>
+            <param name="disposing">Whether called from a Dispose method (its value is true), or, from a finalizer (its value is false).</param>
+            <remarks>
+            The disposing parameter should be false when called from a finalizer, and true when called from the IDisposable.Dispose method.
+            In other words, it is true when deterministically called, and false when non-deterministically called.
+            </remarks>
+        </member>
+        <member name="T:Microsoft.Bot.Connector.Streaming.Application.StreamingTransportClient.Log">
+            <summary>
+            Log messages for <see cref="T:Microsoft.Bot.Connector.Streaming.Transport.StreamingTransport"/>.
+            </summary>
+            <remarks>
+            Messages implemented using <see cref="M:Microsoft.Extensions.Logging.LoggerMessage.Define(Microsoft.Extensions.Logging.LogLevel,Microsoft.Extensions.Logging.EventId,System.String)"/> to maximize performance.
+            For more information, see https://docs.microsoft.com/en-us/aspnet/core/fundamentals/logging/loggermessage?view=aspnetcore-5.0.
+            </remarks>
+        </member>
+        <member name="T:Microsoft.Bot.Connector.Streaming.Application.WebSocketClient">
+            <summary>
+            Web socket client.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Bot.Connector.Streaming.Application.WebSocketClient.#ctor(System.Net.WebSockets.WebSocket,System.String,Microsoft.Bot.Streaming.RequestHandler,System.Nullable{System.TimeSpan},System.Nullable{System.TimeSpan},Microsoft.Extensions.Logging.ILogger)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Bot.Connector.Streaming.Application.WebSocketClient"/> class.
+            </summary>
+            <param name="socket">The client web socket to initiate streaming connection to a server.</param>
+            <param name="url">The server URL to connect to.</param>
+            <param name="requestHandler">Handler that will receive incoming requests to this client instance.</param>
+            <param name="closeTimeOut">Optional time out for closing the client connection.</param>
+            <param name="keepAlive">Optional spacing between keep alives for proactive disconnection detection. If null is provided, no keep alives will be sent.</param>
+            <param name="logger"><see cref="T:Microsoft.Extensions.Logging.ILogger"/> for the client.</param>
+        </member>
+        <member name="T:Microsoft.Bot.Connector.Streaming.Application.WebSocketStreamingConnection">
+            <summary>
+            Default implementation of <see cref="T:Microsoft.Bot.Connector.Streaming.Application.StreamingConnection"/> for WebSocket transport.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Bot.Connector.Streaming.Application.WebSocketStreamingConnection.#ctor(System.Net.WebSockets.WebSocket,Microsoft.Extensions.Logging.ILogger)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Bot.Connector.Streaming.Application.WebSocketStreamingConnection"/> class.
+            </summary>
+            <param name="socket"><see cref="T:System.Net.WebSockets.WebSocket"/> instance on which streams are transported between client and server.</param>
+            <param name="logger"><see cref="T:Microsoft.Extensions.Logging.ILogger"/> for the connection.</param>
+        </member>
+        <member name="T:Microsoft.Bot.Connector.Streaming.Transport.NamedPipeTransport.Log">
+            <summary>
+            Log messages for <see cref="T:Microsoft.Bot.Connector.Streaming.Transport.NamedPipeTransport"/>.
+            </summary>
+            <remarks>
+            Messages implemented using <see cref="M:Microsoft.Extensions.Logging.LoggerMessage.Define(Microsoft.Extensions.Logging.LogLevel,Microsoft.Extensions.Logging.EventId,System.String)"/> to maximize performance.
+            For more information, see https://docs.microsoft.com/en-us/aspnet/core/fundamentals/logging/loggermessage?view=aspnetcore-5.0.
+            </remarks>
+        </member>
+        <member name="M:Microsoft.Bot.Connector.Streaming.Transport.StreamingTransport.Dispose">
+            <inheritdoc />
+        </member>
+        <member name="M:Microsoft.Bot.Connector.Streaming.Transport.StreamingTransport.ReceiveAsync(System.Memory{System.Byte},System.Threading.CancellationToken)">
+            <summary>
+            Receive stream from transport into the specified buffer.
+            </summary>
+            <param name="buffer">The buffer where incoming stream will be received into.</param>
+            <param name="cancellationToken"><see cref="T:System.Threading.CancellationToken"/> to cancel the receive process.</param>
+            <returns>The actual number of bytes read if receive was successful; -1 if receive encountered an error.</returns>
+        </member>
+        <member name="M:Microsoft.Bot.Connector.Streaming.Transport.StreamingTransport.SendAsync(System.Buffers.ReadOnlySequence{System.Byte},System.Threading.CancellationToken)">
+            <summary>
+            Send stream to transport from the specified buffer.
+            </summary>
+            <param name="buffer">The buffer that contains outgoing stream.</param>
+            <param name="cancellationToken"><see cref="T:System.Threading.CancellationToken"/> to cancel the send process.</param>
+            <returns>A task that represents the asynchronous send operation.</returns>
+        </member>
+        <member name="M:Microsoft.Bot.Connector.Streaming.Transport.StreamingTransport.CanSend">
+            <summary>
+            Whether the transport can send outgoing stream.
+            </summary>
+            <returns>true if the transport can send outgoing stream; false otherwise.</returns>
+        </member>
+        <member name="M:Microsoft.Bot.Connector.Streaming.Transport.StreamingTransport.CloseOutputAsync(System.Exception,System.Threading.CancellationToken)">
+            <summary>
+            Close the transport connection if it is still open.
+            </summary>
+            <param name="error">The transport error, if any; null if there were no errors.</param>
+            <param name="cancellationToken"><see cref="T:System.Threading.CancellationToken"/> to cancel the close process.</param>
+            <returns>A task that represents the asynchronous close operation.</returns>
+        </member>
+        <member name="M:Microsoft.Bot.Connector.Streaming.Transport.StreamingTransport.Dispose(System.Boolean)">
+            <summary>
+            Disposes managed and unmanaged resources of the underlying <see cref="T:Microsoft.Bot.Connector.Streaming.Transport.StreamingTransport"/>.
+            </summary>
+            <param name="disposing">Whether we are disposing managed resources.</param>
+        </member>
+        <member name="T:Microsoft.Bot.Connector.Streaming.Transport.StreamingTransport.Log">
+            <summary>
+            Log messages for <see cref="T:Microsoft.Bot.Connector.Streaming.Transport.StreamingTransport"/>.
+            </summary>
+            <remarks>
+            Messages implemented using <see cref="M:Microsoft.Extensions.Logging.LoggerMessage.Define(Microsoft.Extensions.Logging.LogLevel,Microsoft.Extensions.Logging.EventId,System.String)"/> to maximize performance.
+            For more information, see https://docs.microsoft.com/en-us/aspnet/core/fundamentals/logging/loggermessage?view=aspnetcore-5.0.
+            </remarks>
+        </member>
+        <member name="T:Microsoft.Bot.Connector.Streaming.Transport.WebSocketTransport.Log">
+            <summary>
+            Log messages for <see cref="T:Microsoft.Bot.Connector.Streaming.Transport.WebSocketTransport"/>.
+            </summary>
+            <remarks>
+            Messages implemented using <see cref="M:Microsoft.Extensions.Logging.LoggerMessage.Define(Microsoft.Extensions.Logging.LogLevel,Microsoft.Extensions.Logging.EventId,System.String)"/> to maximize performance.
+            For more information, see https://docs.microsoft.com/en-us/aspnet/core/fundamentals/logging/loggermessage?view=aspnetcore-5.0.
+            </remarks>
+        </member>
+        <member name="P:Microsoft.Bot.Connector.Streaming.Payloads.RequestPayload.Verb">
+            <summary>
+            Gets or sets request verb, null on responses.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Bot.Connector.Streaming.Payloads.RequestPayload.Path">
+            <summary>
+            Gets or sets request path; null on responses.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Bot.Connector.Streaming.Payloads.RequestPayload.Streams">
+            <summary>
+            Gets or sets assoicated stream descriptions.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Bot.Connector.Streaming.Payloads.ResponsePayload.StatusCode">
+            <summary>
+            Gets or sets status - The Response Status.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Bot.Connector.Streaming.Payloads.ResponsePayload.Streams">
+            <summary>
+            Gets or sets assoicated stream descriptions.
+            </summary>
+        </member>
+    </members>
+</doc>
