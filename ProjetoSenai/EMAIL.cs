@@ -80,7 +80,7 @@ namespace ProjetoSenai
             if (chbox.Checked == false)
             {
                 
-                MailMessage mailMessage = new MailMessage("sesisenaiaraxa@fiemg.com.br", cb_email.Text);
+                MailMessage mailMessage = new MailMessage("EmailDaEmpresaAqui", cb_email.Text);
                 try
                 {
                     
@@ -94,7 +94,7 @@ namespace ProjetoSenai
                     smtpClient.UseDefaultCredentials = false;
                    
                     smtpClient.EnableSsl = true;
-                    smtpClient.Credentials = new NetworkCredential("sesisenaiaraxa@fiemg.com.br", "B99D87A1BEEDC0D9A0D4B50974A3559CA205");
+                    smtpClient.Credentials = new NetworkCredential("EmailDaEmpresaAqui", "ChaveDisponibilizadaPelaAPIAqui");
                     smtpClient.Send(mailMessage);
                     pgbr.Value = 100;
                     await Task.Delay(TimeSpan.FromMilliseconds(200));
@@ -136,7 +136,7 @@ namespace ProjetoSenai
                     try
                     {
                     
-                        MailMessage mailMessage = new MailMessage("sesisenaiaraxa@fiemg.com.br", dt1.Rows[0].Field<string>("em").ToString());
+                        MailMessage mailMessage = new MailMessage("EmailDaEmpresaAqui", dt1.Rows[0].Field<string>("em").ToString());
                         mailMessage.Subject = TB_TITULO.Text;
                         mailMessage.IsBodyHtml = true;
                         mailMessage.Body = TB_MENSAGEM.Text;
@@ -147,7 +147,7 @@ namespace ProjetoSenai
                         smtpClient.UseDefaultCredentials = false;
 
                         smtpClient.EnableSsl = true;
-                        smtpClient.Credentials = new NetworkCredential("sesisenaiaraxa@fiemg.com.br", "B99D87A1BEEDC0D9A0D4B50974A3559CA205");
+                        smtpClient.Credentials = new NetworkCredential("EmailDaEmpresaAqui", "ChaveDisponibilizadaPelaAPIAqui");
                         smtpClient.Send(mailMessage);
                         con = true;
 
